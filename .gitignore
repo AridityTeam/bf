@@ -1,89 +1,83 @@
-# cache
-cache/*
-maps/soundcache/*
-maps/graphs/*
-materials/temp/*
-sound/temp/*
-sound.cache
-*.sound.cache
-*.ent
+# source and debug files
 *.pdb
-*.dbg
-modelsounds.cache
-Gamestate.txt
+*.log
+*.prt
+*.vmf
+*.vmx
 
-# crash dumps
-*.dmp
+# folders
+addons/
+cache/
+download/
+downloadlists/
+custom/*
+screenshots/
+sound/temp/
+maps/graphs/
+materials/temp/*
+materials/vgui/logos/*
+materialsrc/
+modelsrc/
+mapsrc/
+sound/temp/
+maps/soundcache/
 
-# config files
-cfg/sourcemod/*
-cfg/autoexec_user.cfg
+# allow files in ignored folders
+!custom/readme.txt
+# pre-installed sprays
+!materials/vgui/logos/can.*
+!materials/vgui/logos/pf2.*
+
+# class config files
+cfg/scout.cfg
+cfg/soldier.cfg
+cfg/pyro.cfg
+cfg/demoman.cfg
+cfg/heavyweapons.cfg
+cfg/engineer.cfg
+cfg/medic.cfg
+cfg/sniper.cfg
+cfg/spy.cfg
+cfg/civilian.cfg
+cfg/undefined.cfg
+cfg/autoexec.cfg
+
+# server config files
+cfg/motd.txt
+cfg/motd_defualt.txt
+cfg/motd_text_defualt.txt
+cfg/sourcemod
+cfg/server.cfg
+cfg/listenserver.cfg
+cfg/mapcycle.txt
+cfg/maplist.txt
+cfg/server_blacklist.txt
 cfg/banned_ip.cfg
 cfg/banned_user.cfg
-cfg/config.cfg
-cfg/server_blacklist.txt
-cfg/server.cfg
-cfg/user.scr
-cfg/settings.scr
-settings/admins.txt
 ServerConfig.vdf
 
-# logs
-logs/*
+# user generated files
+cfg/config.cfg
+cfg/userconfig.cfg
+cfg/settings.scr
+cfg/user.scr
+cfg/pf.scr
+cfg/pet.txt
+cfg/commedit.txt
+media/viewed.res
+scripts/tf_inventory.txt
+resource/mp3player_db.txt
+sound/sound.cache
 console.log
 
-# demo records
-*.dem
-
-# user stuff
-*.ain
-Gamestate.txt
-custom/*
-download/*
-downloadlists/*
-SAVE/*
-screenshots/*
-demoheader.tmp
-stats.txt
-gamestate.txt
-voice_ban.dt
-tf2_playerstats.dmx
-ep1_playerstats.dmx
-ep2_playerstats.dmx
-media/viewed.res
-scripts/tf_inventory.txt
-
-# source plugins
-addons/*
-
-# faceposer stuff
-expressions/*
-media/viewed.res
-
-materials/vgui/logos/*
-materials/vgui/logos/ui/*
-materials/vgui/logos/ui/spray.vmt
-
-*.sfk
-results/results.txt
-cfg/server_blacklist.txt
-cfg/config.cfg
-tf2_playerstats.dmx
-sound/sound.cache
-modelsounds.cache
 GameState.txt
-demoheader.tmp
-cfg/config.cfg
-cfg/config.cfg
-demoheader.tmp
-modelsounds.cache
-sound/sound.cache
+stats.txt
 tf2_playerstats.dmx
-scripts/tf_inventory.txt
-cfg/user.scr
-cfg/user.scr
-cfg/user.scr
-bin/tools/Crowbar.exe
-cfg/server_blacklist.txt
-tf_coop_lambda_gamestats.dat
-*.ztmp
+modelsounds.cache
+demoheader.tmp
+voice_ban.dt
+
+*.dem
+*.backup
+*.bat
+*.lnk
