@@ -27,7 +27,7 @@ WeaponData
 	"secondary_ammo"	"None"
 	clip_size		12
 	default_clip		12
-	"MaxAmmo"			"32"
+	"MaxAmmo"			"36"
 
 	// Buckets.
 	"bucket"		"1"
