@@ -10,14 +10,10 @@
 		"Unnamed/Twilight Bob"
 		{
 			"code"				"1"
+			"other"
 			{
-	}
-	"contributors"
-	{
-		"bvvth556/ big beef"
-		{
-			"code"				"1"
-			"textures"			"1"
+			"English"		"Pipebomb Launcher kill icons"
+			}
 		}
 	}
 	"special"
@@ -32,6 +28,15 @@
 	}
 	"software"
 	{
+		"Momentum Mod"
+		{
+		}
+		"Open Fortress"
+		{
+		}
+		"Team Fortress 2 Classic"
+		{
+		}
 		"Pre-Fortress 2"
 		{
 		}

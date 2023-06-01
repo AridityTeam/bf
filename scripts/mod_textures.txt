@@ -570,11 +570,11 @@
 		"d_tf_projectile_pipe_remote"
 		{
 				"file"	"HUD/d_images"		
-				"x"		"0"
-				"y"		"288"
+				"x"		"290"
+				"y"		"291"
 				"width"		"96"
 				"height"	"32"
-		}		
+		}	
 		"d_vehicle"
 		{
 				"file"	"HUD/d_images"		
@@ -1035,11 +1035,11 @@
 		"dneg_tf_projectile_pipe_remote"
 		{
 				"file"	"HUD/dneg_images"
-				"x"		"0"
-				"y"		"288"
+				"x"		"290"
+				"y"		"291"
 				"width"		"96"
 				"height"	"32"
-		}		
+		}	
 		"dneg_vehicle"
 		{
 				"file"	"HUD/dneg_images"
