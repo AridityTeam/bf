@@ -12,7 +12,7 @@
 			"code"				"1"
 			"other"
 			{
-			"English"		"Pipebomb Launcher kill icons"
+			"English"		"Kill icons"
 			}
 		}
 	}
@@ -28,15 +28,6 @@
 	}
 	"software"
 	{
-		"Momentum Mod"
-		{
-		}
-		"Open Fortress"
-		{
-		}
-		"Team Fortress 2 Classic"
-		{
-		}
 		"Pre-Fortress 2"
 		{
 		}
