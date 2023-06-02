@@ -9,9 +9,9 @@ PlayerClass
 	"model_hwm"		"models/player/hwm/scout.mdl"
 	"localize_name"	"TF_Class_Name_Scout"
 	"speed_max"		"450"
-	"health_armor_max"		"75"
-	"armor_max"		"50"
-	"armortype"		"1"
+	"health_armor_max"		"125"
+	"armor_max"		"None"
+	"armortype"		"None"
 	"health_max"		"125"
 
 	// Grenades.

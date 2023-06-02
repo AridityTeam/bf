@@ -9,9 +9,9 @@ PlayerClass
 	"model_hwm"		"models/player/hwm/spy.mdl"
 	"localize_name"	"TF_Class_Name_Spy"
 	"speed_max"		"300"
-	"health_armor_max"		"90"
-	"armor_max"		"100"
-	"armortype"		"2"
+	"health_armor_max"		"125"
+	"armor_max"		"None"
+	"armortype"		"None"
 	"health_max"		"125"
 
 	// Grenades.

@@ -9,9 +9,9 @@ PlayerClass
 	"model_hwm"		"models/player/hwm/heavy.mdl"
 	"localize_name"	"TF_Class_Name_HWGuy"
 	"speed_max"		"230"
-	"health_armor_max"		"100"
-	"armor_max"		"300"
-	"armortype"		"3"
+	"health_armor_max"		"300"
+	"armor_max"		"None"
+	"armortype"		"None"
 	"health_max"		"300"
 
 	// Grenades.
