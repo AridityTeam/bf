@@ -355,7 +355,7 @@
 		{
 				"file"	"HUD/d_images"
 				"x"		"0"
-				"y"		"128"
+				"y"		"32"
 				"width"		"96"
 				"height"	"32"
 		}
@@ -820,7 +820,7 @@
 		{
 				"file"	"HUD/dneg_images"
 				"x"		"0"
-				"y"		"128"
+				"y"		"32"
 				"width"		"96"
 				"height"	"32"
 		}
