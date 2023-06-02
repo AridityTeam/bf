@@ -10,6 +10,7 @@
 		"Unnamed/Twilight Bob"
 		{
 			"code"				"1"
+			"textures"			"1"
 			"other"
 			{
 			"English"		"Kill icons"
