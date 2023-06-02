@@ -6,6 +6,7 @@
 		{
 			"lead"				"1"
 			"textures"			"1"
+			"mapper"			"1"
 		}
 		"Unnamed/Twilight Bob"
 		{
