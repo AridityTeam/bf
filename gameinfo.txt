@@ -1,6 +1,6 @@
 "GameInfo"
 {
-	game			"Beta-Fortress 2"
+	game			"Beta Fortress 2"
 	gamelogo 1
 	title 			""
 	title2			""
