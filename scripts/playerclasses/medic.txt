@@ -21,7 +21,7 @@ PlayerClass
 	// Weapons.
 	"weapon1"		"TF_WEAPON_SYRINGE"
 	"weapon2"		"TF_WEAPON_MEDIGUN"
-	"weapon3"		"TF_WEAPON_SMG_MEDIC"
+	"weapon3"		"TF_WEAPON_SYRINGEGUN_MEDIC"
 	
 	//"DontDoAirwalk"	"1"
 	//"DontDoNewJump"	"1"
