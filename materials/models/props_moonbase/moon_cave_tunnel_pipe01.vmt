@@ -1,0 +1,10 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models\props_moonbase/moon_cave_tunnel_pipe01"
+	"$detail" "overlays/detail001"
+	"$detailscale" "6"
+	"$detailblendmode" "0"
+	"$detailblendfactor" "1.2"
+}
+
+

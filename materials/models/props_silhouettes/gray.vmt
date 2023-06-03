@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/props_silhouettes/gray"
+	"$color2" "[.7 .7 .7]"
+	"$surfaceprop"	"default"
+
+}

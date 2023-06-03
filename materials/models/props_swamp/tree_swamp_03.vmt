@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_swamp/tree_swamp_03"
+	"$model" 1
+	"$surfaceprop" "wood"
+}
+
+// TF2Maps.net Swamp Theme
+// http://tf2maps.net

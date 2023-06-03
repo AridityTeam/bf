@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/props_swamp/mossless"
+	"$surfaceprop"	"default"
+//	"$alphatest"	1
+	"$translucent"	1
+	"$nocull"	1
+}

@@ -1,0 +1,21 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models\props_mvm/mvm_wall_photos"
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.3 .3 .3]"	
+
+	"$basemapalphaphongmask"	"1"
+
+	"$phong" "1"
+	"$phongexponent" "60"
+	"$phongboost" "1"
+	"$phongfresnelranges"	"[.2 1 4]"
+		
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+
+
+	"$rimlight" "0"
+	"$rimlightexponent" "4"
+	"$rimlightboost" "1"
+}

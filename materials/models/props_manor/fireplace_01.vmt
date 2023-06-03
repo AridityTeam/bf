@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$model" 1
+	"$baseTexture" "models\props_manor/fireplace_01"
+	"$bumpmap" "models\props_manor/fireplace_01_normal"
+}
+

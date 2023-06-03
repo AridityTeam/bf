@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models\props_mvm/woodplanks_tank_entrance001"
+	"$color2" "[4 4 4]"
+	"$surfaceprop" "wood"
+	"%keywords" "tf"
+}

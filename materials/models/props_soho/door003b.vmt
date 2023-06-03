@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models/props_soho/Door003b"
+	"$surfaceprop" "metal"
+	"%keywords" "tf"
+}

@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models/props_halloween/shoot_the_idiot_sign"
+	"$selfillum" 1
+
+}

@@ -1,0 +1,17 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models\props_mvm/mvm_human_skeleton"
+
+	"$basemapalphaphongmask"	"1"
+
+	"$phong" "1"
+	"$phongexponent" "5"
+	"$phongboost" "1"
+	"$phongfresnelranges"	"[.2 1 4]"
+		
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+
+	"$rimlight" "0"
+	"$rimlightexponent" "4"
+	"$rimlightboost" "1"
+}

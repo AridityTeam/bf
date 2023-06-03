@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_halloween/big_top_carts001"
+	"$detail" "models\props_halloween/hwn_carnival_canopy01_detail"
+	"$detailscale" "13"
+	"$detailblendmode" "0"
+	"$detailblendfactor" "0.55"
+}

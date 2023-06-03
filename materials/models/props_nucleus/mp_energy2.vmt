@@ -1,0 +1,24 @@
+"UnlitTwoTexture"
+{
+	$baseTexture "models/props_nucleus/MP_energy"
+	$Texture2 "models/props_nucleus/MP_energy_2"
+	$additive 1
+	$nocull 1
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$basetexturetransform"
+			"texturescrollrate" 2
+			"texturescrollangle" 5
+		}
+		"TextureScroll"
+		{
+			"texturescrollvar" "$texture2transform"
+			"texturescrollrate" 1.8
+			"texturescrollangle" 0
+		}
+	}
+
+
+}

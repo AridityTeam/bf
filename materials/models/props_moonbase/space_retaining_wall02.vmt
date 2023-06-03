@@ -1,0 +1,8 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models\props_moonbase/space_retaining_wall02"
+	"$detail" "overlays/detail001"
+	"$detailscale" "2"
+	"$detailblendmode" "0"
+	"$detailblendfactor" "1.2"
+}

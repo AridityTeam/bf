@@ -1,0 +1,20 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models\props_moonbase/moon_interior_tech_corner01"
+	//$basealphaenvmapmask  1
+	//$normalmapalphaenvmapmask 1
+	$bumpmap "effects/flat_normal"
+	"$envmapcontrast" "0"
+	"$envmap" "cubemaps\cubemap_specular001"
+	"$envmaptint" "[ 0.62 0.580 0.53 ]"
+
+	"$detail" "detail/moon_panels01"
+	"$detailtexturetransform" "center .5 .5 scale 1 4 rotate 0 translate 0 0"
+	"$detailscale" 0.25
+	"$detailblendmode" "0"
+	"$detailblendfactor" "0.25"
+}
+
+
+
+

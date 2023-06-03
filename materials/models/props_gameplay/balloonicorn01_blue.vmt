@@ -1,0 +1,75 @@
+"VertexlitGeneric"
+{
+	"$baseTexture"			"models/props_gameplay/balloonicorn01_blue"
+	"$bumpmap" 			"models/props_gameplay/balloonicorn01_normal"
+//	"$basemapalphaphongmask"	"1"
+	"$phong"			"1"
+	"$phongexponent"		"5"
+	"$phongboost"			"2"	
+	"$phongfresnelranges"		"[.3 .3 .2]"
+
+	"$nodecal"			"1"
+
+	"$envmap"			"env_cubemap"
+	"$envmaptint"			"[.1 .1 .1]"
+
+	"$rimlight"			"1"
+	"$rimlightboost"		"4"
+	"$rimlightexponent"		"15"
+
+	"$surfaceprop"			"ball_bouncy"
+
+"$yellow" "0"
+"$one" "1"
+
+// Cloaking
+"$cloakPassEnabled" "1"
+
+// pink "$color2" "{227 134 148}"
+// blue "$color2" "{119 177 212}"
+"$color2" "{119 177 212}"
+
+"$colortint_base" "{119 177 212}"
+"$colortint_tmp" "[0 0 0]" 
+
+"$blendtintbybasealpha" "1" 
+"$blendtintcoloroverbase" "0"  
+
+	"Proxies"
+	{
+		"weapon_invis"
+		{
+		}
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$detail"
+			"animatedtextureframenumvar" "$detailframe"
+			"animatedtextureframerate" 30
+		}
+		"BurnLevel"
+		{
+			"resultVar" "$detailblendfactor"
+		}
+		"YellowLevel"
+		{
+			"resultVar" "$yellow"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$yellow"
+			"resultVar" "$color2"
+		}
+		"ItemTintColor"
+		{
+			"resultVar" "$colortint_tmp"
+		}
+		"SelectFirstIfNonZero"
+		{
+			"srcVar1"	"$colortint_tmp"
+			"srcVar2"	"$colortint_base"
+			"resultVar" "$color2"
+		}
+
+	}
+
+}

@@ -1,0 +1,12 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models\props_moonbase/moon_cylinder_light01"
+
+	//"$basealphaenvmapmask" "1"
+	$envmap "cubemaps/cubemap_sheen001"
+	$envmaptint "[ 0.3 0.3 0.3 ]"
+	$selfillum 1
+	$selfillumtint "[ 1 0.95 0.6 ]"
+	$selfillummask "models\props_moonbase/moon_cylinder_light01_illum"
+
+}

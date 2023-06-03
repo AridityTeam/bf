@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$model" 1
+	"$baseTexture" "models\props_manor/immortality_machine_01"
+	"$phong" "1"
+	"$phongexponent" "50"
+	"$phongboost" ".5"	
+	"$phongfresnelranges"	"[.1 10 10]"
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+}
+

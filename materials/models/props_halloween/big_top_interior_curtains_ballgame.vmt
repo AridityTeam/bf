@@ -1,0 +1,10 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models\props_halloween/big_top_interior_curtains_ballgame"
+	"$detail" "models\props_halloween/hwn_carnival_canopy01_detail"
+	"$detailscale" "13"
+	"$detailblendmode" "0"
+	"$detailblendfactor" "0.55"
+	"$nocull" 1
+}
+

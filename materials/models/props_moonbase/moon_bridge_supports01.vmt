@@ -1,0 +1,8 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models\props_moonbase/moon_bridge_supports01"
+	"$detail" "overlays/detail001"
+	"$detailscale" "2.5"
+	"$detailblendmode" "0"
+	"$detailblendfactor" "2.0"
+}

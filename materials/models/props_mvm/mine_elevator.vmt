@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models\props_mvm/mine_elevator"
+	
+	"$basemapalphaphongmask" "1"
+	
+	"$phong" "1"
+	"$phongboost" ".8"
+	"$phongexponent" "8"
+	"$phongfresnelranges" "[.5 1 2]"
+}

@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$model" "1"
+	"$baseTexture" "models\props_manor/ornate_rug_01"
+	"$alphatest" "1"
+}
+

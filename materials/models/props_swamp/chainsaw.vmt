@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+//	"$phong" 1
+	"$basetexture" "Models/props_swamp/chainsaw"
+	"$surfaceprop" "metal"
+	"$envmap" "env_cubemap"
+	$envmapcontrast .25
+	$basealphaenvmapmask 1
+//	$phongexponent		5		// either/or
+//	$phongboost		1.0
+//	$phongfresnelranges	"[0 0.5 1]"
+
+}

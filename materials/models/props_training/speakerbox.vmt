@@ -1,0 +1,18 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props_training/speakerbox"
+	 $selfillum 1
+	
+	 "Proxies"
+	 	{
+	 		"Sine"
+	 		{
+	 			"Sineperiod" "1.6"
+	 			"SineMax" "2,2,2"
+	 			"SineMin" ".5,.5,.5"
+	 			"timeoffset" ".6"
+	 			"resultVar" "$selfillumtint"
+	 		}
+	 	}
+
+}

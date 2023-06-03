@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_moonbase/radar_outpost02"
+	$translucent 1
+	$alphatest 1
+	"$detail" "detail/moon_panels01"
+	"$detailscale" "2"
+	"$detailblendmode" "0"
+	"$detailblendfactor" "0.65"
+}
+

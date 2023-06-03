@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "Models/props_swamp/crate_diffuse"
+	"$model" 1
+}

@@ -1,0 +1,7 @@
+"SpriteCard"
+//"UnlitGeneric"
+{
+	"$basetexture" "models/props_mvm/splinters"
+	"$color2" "[0.6 0.6 0.6]"
+	"$translucent" "1"
+}

@@ -1,0 +1,18 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props_mvm\pipe_section"
+
+//"$bumpmap" "effects/flat_normal"
+	"$phong" "1"
+	"$phongexponent" "4"
+	"$phongboost" "1"	
+	"$phongfresnelranges"	"[.6 .9 1]"
+//	"$halflambert" "0"
+	
+	"$basemapalphaphongmask" "1"
+
+
+//	"$lightwarptexture" "models\lightwarps\robot_lightwarp"
+
+
+}

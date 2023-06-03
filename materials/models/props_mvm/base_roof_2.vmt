@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"			"models/props_mvm/base_roof_2"
+	"$selfillum" 1
+}

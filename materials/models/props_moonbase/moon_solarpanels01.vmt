@@ -1,0 +1,8 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models\props_moonbase/moon_solarpanels01"
+	"$envmap" "cubemaps/cubemap_shapes002"
+	"$envmaptint" "[ 0.8 0.7 0.3 ]"
+	$envmapcontrast "0.1"
+	$basealphaenvmapmask 1	
+}

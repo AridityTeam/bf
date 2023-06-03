@@ -1,0 +1,14 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "models\props_moonbase/moon_stars01"
+
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$basetexturetransform"
+			"texturescrollrate" -0.02
+			"texturescrollangle" 45
+		}
+	}
+}

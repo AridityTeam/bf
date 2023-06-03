@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models\props_harbor/center_cap_building_harbor"
+	"$surfaceprop" "metal"
+	"%keywords" "tf"
+}

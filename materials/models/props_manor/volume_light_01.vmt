@@ -1,0 +1,8 @@
+"VertexlitGeneric"
+{
+	"$model" 1
+	"$baseTexture" "models\props_manor/volume_light_01"
+	"$additive" "1"
+	"$nocull" "1"
+}
+

@@ -1,0 +1,14 @@
+
+
+"VertexLitGeneric"
+{
+    "$basetexture" "models/props_mvm/brokenWood"
+	"$color2" "[0.66 0.66 0.66]"
+	
+//	"$phong" "1"
+//	"$phongexponent" "20"
+//	"$phongboost" "8"	//was 4
+//	"$phongfresnelranges"	"[.2 .5 1]" 
+//	"$basemapalphaphongmask" "1"
+
+}

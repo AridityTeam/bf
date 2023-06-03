@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "Models/props_mvm/blue_window002_glass"
+	"$translucent" 1
+	"$nocull" 1
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[ 1 1 1]"
+	"$envmapcontrast" 1
+	"$envmapsaturation" 1
+
+}

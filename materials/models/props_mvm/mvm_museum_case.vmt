@@ -1,0 +1,14 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models\props_mvm/mvm_museum_case"
+
+	"$phong" "1"
+	"$phongexponent" "160"
+	"$phongboost" "1"
+	"$phongfresnelranges"	"[.8 1 4]"
+		
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+
+$BasemapAlphaPhongMask 1
+
+}

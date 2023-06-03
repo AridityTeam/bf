@@ -1,0 +1,52 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models\props_moonbase/moon_interior_tech01"
+	$selfillummask "models\props_moonbase/moon_interior_tech01_illum"
+	$selfillum 1
+		"$tempvar" 0
+	
+		"Proxies"
+		{		
+			"UniformNoise"
+			{
+			"minVal" -1
+			"maxVal" 2
+			"resultVar" "$tempvar"
+			}	
+	
+		"Sine"
+		{
+		"sineperiod" "1"
+		"sinemin" "-5"
+		"sinemax" "0.5"
+		"resultVar" "$selfillumtint"
+		}
+		"Add"
+		{
+			"srcVar1"		"$tempVar"
+			"srcVar2"		"$selfillumtint"
+			"resultVar" "$selfillumtint"
+		}
+		
+		"clamp"
+		{
+			"min"				"0.1"
+			"max"				"2"
+			"srcVar1"		"$selfillumtint"
+			"resultVar"	"$selfillumtint"
+		}
+	}
+
+}
+
+	// Proxies
+	// {
+		// "Sine" // a proxy which produces a sine wave
+		// {
+			// resultVar $selfillumtint // The shader parameter to be manipulated
+			// sineperiod	3
+			// sinemin	 	0.1
+			// sinemax		2
+		// }
+	// }
+

@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "medieval/woodtrim001"
+	"$surfaceprop"	"wood"
+	"%keywords"	"tf"
+}

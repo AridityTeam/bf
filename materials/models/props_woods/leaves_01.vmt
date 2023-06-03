@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+
+	"$basetexture"	"Models/props_woods/leaves_01"
+	"$alphatest" 1
+	"$nocull" 1	
+
+}

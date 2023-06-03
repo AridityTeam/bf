@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models\props_mvm/2bridges_bridge001"
+	"$surfaceprop" "wood"
+}

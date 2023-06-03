@@ -1,0 +1,19 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "models\props_lakeside_event/wof_card_glow"
+	$translucent 1
+	$additive 1
+	"$model" "1"
+
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$basetexturetransform"
+			"texturescrollrate" -.84
+			"texturescrollangle" 90
+		}
+	}
+}
+
+

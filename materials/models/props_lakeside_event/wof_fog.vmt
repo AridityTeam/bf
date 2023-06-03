@@ -1,0 +1,19 @@
+"UnlitTwoTexture"
+{
+	"$basetexture"	"models\props_lakeside_event/wof_fog_gradient"
+	"$texture2" "models\props_lakeside_event/wof_fog"
+	//$nocull 1
+	"$surfaceprop"	"no_decal"
+	"$translucent"	1
+	"$additive" 	1
+	
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$texture2transform"
+			"texturescrollrate" -0.15
+			"texturescrollangle" 0
+		}
+	}
+}

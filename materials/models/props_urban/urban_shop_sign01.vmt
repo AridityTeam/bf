@@ -1,0 +1,9 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models\props_urban/urban_shop_sign01"
+	$basemapalphaphongmask 1
+	"$phong" "1"
+	"$phongexponent" "30"
+	"$phongboost" "4.8"	
+	"$phongfresnelranges"	"[0.4 0.5 1]"
+}

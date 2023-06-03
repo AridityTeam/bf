@@ -1,0 +1,35 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "glass/glasswindow002a"
+	"$surfaceprop" "default"
+	$selfillum 1
+	$selfillumtint "[1 1 0]"
+	"$blendtintbybasealpha" "0" 
+	"$blendtintcoloroverbase" "1"  
+
+	"$colortint_base" "{4 42 273}"
+	"$color2" "{0 0 0}"  
+	"$colortint_tmp" "[0 0 0]"
+	"Proxies"
+	{
+
+  		"ItemTintColor"
+  		{
+   			"resultVar" "$colortint_tmp"
+  		}
+  		"SelectFirstIfNonZero"
+  		{
+   			"srcVar1" "$colortint_tmp"
+   			"srcVar2" "$colortint_base"
+   			"resultVar" "$color2"
+  		}
+		"Sine" // a proxy which produces a sine wave
+		{
+			resultVar $selfillumtint // The shader parameter to be manipulated
+			sineperiod	1.2
+			sinemin	 	30
+			sinemax		100
+		}
+
+	}
+}
