@@ -18,6 +18,13 @@
 			"English"		"Kill icons"
 			}
 		}
+		"Bvvth556/Big Beef"
+		{
+			"other"
+			{
+			"English"		"Game's icon"
+			}
+		}
 	}
 	"special"
 	{

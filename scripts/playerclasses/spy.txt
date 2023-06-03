@@ -15,7 +15,7 @@ PlayerClass
 	"health_max"		"125"
 
 	// Grenades.
-	"grenade1"		"TF_WEAPON_GRENADE_NORMAL"
+	"grenade1"		"None"
 	"grenade2"		"TF_WEAPON_GRENADE_GAS"
 
 	// Weapons.
@@ -34,7 +34,7 @@ PlayerClass
 		"tf_ammo_primary"	"36"		
 		"tf_ammo_secondary"	"30"
 		"tf_ammo_metal"		"100"
-		"tf_ammo_grenades1"	"4"
+		"tf_ammo_grenades1"	"0"
 		"tf_ammo_grenades2"	"4"
 	}
 

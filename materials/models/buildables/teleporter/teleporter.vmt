@@ -1,12 +1,6 @@
-"VertexLitGeneric"
+"VertexlitGeneric"
 {
-	"$basetexture"	"models\buildables\teleporter\tp_sheet_red"
-
-	"$detail" "models\buildables\teleporter\tp_lights_red"
-	"$detailscale" "1"
-	"$detailblendfactor" .9
-	"$detailblendmode" 6
-
+	"$basetexture" "models/buildables\teleporter\tp_sheet_red"
 
 	"$phong" "1"
 	"$phongboost" "10"
@@ -19,6 +13,4 @@
 	"$rimlight" "1"		
 	"$rimlightexponent" "4"				
 	"$rimlightboost" "1.5"
-	
-
 }

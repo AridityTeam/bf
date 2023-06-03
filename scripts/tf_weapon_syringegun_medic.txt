@@ -11,7 +11,7 @@ WeaponData
 	"Damage"		"10"
 	"Range"			"8192"
 	"BulletsPerShot"	"1"
-	"Spread"		"0.02617994"
+	"Spread"		"0.0"
 	"TimeFireDelay"		"0.1"
 	"ProjectileType"	"projectile_syringe"
 	"HasTeamSkins_Viewmodel"		"1"
@@ -21,7 +21,8 @@ WeaponData
 	// Ammo & Clip.
 	"primary_ammo"		"TF_AMMO_PRIMARY"
 	"secondary_ammo"	"None"
-	"MaxAmmo"			"200"
+	clip_size		40
+	default_clip		40
 
 	// Buckets.
 	"bucket"		"0"
@@ -33,7 +34,7 @@ WeaponData
 
 	// Animation.
 	"viewmodel"		"models/weapons/v_models/v_syringegun_medic.mdl"
-	"playermodel"		"models/weapons/w_models/w_syringegun.mdl"
+	"playermodel"	"models/weapons/w_models/w_syringegun.mdl"
 	"anim_prefix"		"ac"
 
 	// Sounds.
@@ -52,18 +53,18 @@ WeaponData
 		"weapon"
 		{
 				"file"		"sprites/bucket_syrgun_red"
-				"x"			"30"
-				"y"			"48"
+				"x"		"0"
+				"y"		"0"
 				"width"		"200"
-				"height"	"128"
+				"height"		"128"
 		}
 		"weapon_s"
 		{	
 				"file"		"sprites/bucket_syrgun_blue"
-				"x"			"30"
-				"y"			"48"
+				"x"		"0"
+				"y"		"0"
 				"width"		"200"
-				"height"	"128"
+				"height"		"128"
 		}
 		"ammo"
 		{
