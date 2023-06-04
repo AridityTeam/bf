@@ -16,6 +16,7 @@
 			"other"
 			{
 			"English"		"Kill icons"
+			"English"		"Modeler"
 			}
 		}
 		"Bvvth556/Big Beef"
