@@ -10,8 +10,8 @@
 		"wide"			"18"
 		"tall"			"18"
 		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"	
+		"enabled"		"0"
+		"scaleImage"	"0"	
 	}		
 	"PlayerStatusArmorImageBG"
 	{
@@ -22,8 +22,8 @@
 		"zpos"			"3"
 		"wide"			"22"
 		"tall"			"22"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"../hud/armor_light_bg"
 		"scaleImage"	"1"	
 	}
@@ -36,8 +36,8 @@
 		"zpos"			"5"
 		"wide"			"20"
 		"tall"			"10"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"labelText"		"%Armor%"
 		"textAlignment"	"center"	
 		"font"			"SpectatorVerySmall"
