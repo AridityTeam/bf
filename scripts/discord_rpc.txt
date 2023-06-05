@@ -12,7 +12,6 @@
 		"tc_hydro"			"tc_hydro"
 		"cp_well"			"cp_well"
 		"cp_granary"		"cp_granary"
-		"cp_powerhouse"		"cp_powerhouse"
 		"ad_dustbowl"		"ad_dustbowl"
 		"ad_dustbowl2"		"ad_dustbowl2"
 		"ad_gravelpit"		"ad_gravelpit"
