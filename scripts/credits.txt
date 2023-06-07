@@ -12,11 +12,11 @@
 		{
 			"code"				"1"
 			"textures"			"1"
+			"models"			"1"
 			"animation"			"1"
 			"other"
 			{
 			"English"		"Kill icons"
-			"English"		"Modeler"
 			}
 		}
 		"Bvvth556/Big Beef"
