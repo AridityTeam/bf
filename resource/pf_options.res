@@ -14,7 +14,7 @@
 		"enabled"		"1"
 		"tabPosition"		"0"
 		"settitlebarvisible"		"1"
-		"title"		"PF2 Options"
+		"title"		"BF2 Options"
 	}
 	
 	"property_sheet"

@@ -67,21 +67,21 @@ DESCRIPTION INFO_OPTIONS
 		{ CATEGORY }
 	}
 
-	"pf_team_colored_spy_cloak"
+	"bf_team_colored_spy_cloak"
 	{
 		"#TF_coloredcloak"
 		{ BOOL }
 		{ "1" }
 	}
 
-	"pf_muzzleflash"
+	"bf_muzzleflash"
 	{
 		"#TF_muzzleflash"
 		{ BOOL }
 		{ "1" }
 	}
 
-	"pf_showchatbubbles"
+	"bf_showchatbubbles"
 	{
 		"#TF_showchatbubbles"
 		{ BOOL }
@@ -112,49 +112,49 @@ DESCRIPTION INFO_OPTIONS
 		{ CATEGORY }
 	}
 
-	"pf_muzzlelight"
+	"bf_muzzlelight"
 	{
 		"#TF_muzzlelight"
 		{ BOOL }
 		{ "0" }
 	}
 
-	"pf_muzzlelightsprops"
+	"bf_muzzlelightsprops"
 	{
 		"#TF_muzzlelightprop"
 		{ BOOL }
 		{ "0" }
 	}
 
-	"pf_burningplayerlight"
+	"bf_burningplayerlight"
 	{
 		"#TF_dlightfire"
 		{ BOOL }
 		{ "0" }
 	}
 
-	"pf_projectilelight"
+	"bf_projectilelight"
 	{
 		"#TF_dlightprojectile"
 		{ BOOL }
 		{ "0" }
 	}
 
-	"pf_cheapbulletsplash"
+	"bf_cheapbulletsplash"
 	{
 		"#TF_cheapwater"
 		{ BOOL }
 		{ "0" }
 	}
 
-	"pf_blood_impact_disable"
+	"bf_blood_impact_disable"
 	{
 		"#TF_violence"
 		{ BOOL }
 		{ "0" }
 	}
 
-	"pf_picmip"
+	"bf_picmip"
 	{
 		"#TF_PICMIP"
 		{ SLIDER -10 10 }
@@ -167,7 +167,7 @@ DESCRIPTION INFO_OPTIONS
 		{ CATEGORY }
 	}
 	
-	"pf_grenade_press_throw"
+	"bf_grenade_press_throw"
 	{	
 		"#PF_Grenade_Press_Throw"
 		{ BOOL }

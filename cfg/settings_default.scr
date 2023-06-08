@@ -154,7 +154,7 @@ DESCRIPTION SERVER_OPTIONS
 		{ "0.75" }
 	}
 
-	"pf_cp_flag_reset_on_cap"
+	"bf_cp_flag_reset_on_cap"
 	{
 		"#TF_CPResetFlagOnCap"
 		{ BOOL }
@@ -187,21 +187,21 @@ DESCRIPTION SERVER_OPTIONS
 		{ "0" }
 	}
 	
-	"pf_delayed_knife"
+	"vf_delayed_knife"
 	{
 		"#TF_delayedknife"
 		{ BOOL }
 		{ "0" }
 	}
 
-	"pf_grenades"
+	"bf_grenades"
 	{
 		"#TF_grenades"
 		{ BOOL }
 		{ "1" }
 	}
 	
-	"pf_grenades_infinite"
+	"bf_grenades_infinite"
 	{
 		"#TF_grenades_infinite"
 		{ BOOL }
