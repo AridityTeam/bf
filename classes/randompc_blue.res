@@ -78,7 +78,7 @@
 
 			"animation"
 			{
-				"sequence"		"idle"
+				"sequence"		"selection"
 			}
 		}
 	}
