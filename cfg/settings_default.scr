@@ -180,7 +180,7 @@ DESCRIPTION SERVER_OPTIONS
 		{ "1" }
 	}
 	
-	"pf_bufferjumping"
+	"pf_autohop"
 	{
 		"#TF_bunnyhopping"
 		{ BOOL }
