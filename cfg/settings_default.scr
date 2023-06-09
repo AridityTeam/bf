@@ -180,6 +180,13 @@ DESCRIPTION SERVER_OPTIONS
 		{ "1" }
 	}
 	
+	"bf_enable_civilian"
+	{
+		"#TF_enablecivilian"
+		{ BOOL }
+		{ "0" }
+	}
+	
 	"pf_autohop"
 	{
 		"#TF_bunnyhopping"
