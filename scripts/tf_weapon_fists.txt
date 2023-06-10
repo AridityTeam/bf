@@ -24,8 +24,9 @@ WeaponData
 
 	// Model & Animation
 	"viewmodel"			"models/weapons/v_models/v_fist_heavy.mdl"
-	"playermodel"			""
+	//"playermodel"   -playermodel is now defined in _items_main.txt
 	"anim_prefix"			"pipe"
+	"HasTeamSkins_Viewmodel"			"0"
 
 	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
 	SoundData
@@ -42,18 +43,18 @@ WeaponData
 		"weapon"
 		{
 				"file"		"sprites/bucket_fists_red"
-				"x"			"30"
-				"y"			"48"
+				"x"		"0"
+				"y"		"0"
 				"width"		"200"
-				"height"	"128"
+				"height"		"128"
 		}
 		"weapon_s"
 		{	
 				"file"		"sprites/bucket_fists_blue"
-				"x"			"30"
-				"y"			"48"
+				"x"		"0"
+				"y"		"0"
 				"width"		"200"
-				"height"	"128"
+				"height"		"128"
 		}
 		"ammo"
 		{

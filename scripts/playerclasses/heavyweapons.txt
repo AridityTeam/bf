@@ -19,7 +19,7 @@ PlayerClass
 	"grenade2"		"TF_WEAPON_GRENADE_MIRV"
 
 	// Weapons.
-	"weapon1"		"TF_WEAPON_PIPE"
+	"weapon1"		"TF_WEAPON_FISTS"
 	"weapon2"		"TF_WEAPON_SHOTGUN_HWG"
 	"weapon3"		"TF_WEAPON_MINIGUN"
 	

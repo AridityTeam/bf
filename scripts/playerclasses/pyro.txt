@@ -19,7 +19,7 @@ PlayerClass
 	"grenade2"		"TF_WEAPON_GRENADE_NAPALM"
 
 	// Weapons.
-	"weapon1"		"TF_WEAPON_BRANDINGIRON"
+	"weapon1"		"TF_WEAPON_FIREAXE"
 	"weapon2"		"TF_WEAPON_SHOTGUN_PYRO"
 	"weapon3"		"TF_WEAPON_FLAMETHROWER"
 
