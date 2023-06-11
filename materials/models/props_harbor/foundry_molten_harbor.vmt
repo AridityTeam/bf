@@ -1,7 +1,0 @@
-"UnlitGeneric"
-{
-	"$baseTexture" "models\props_harbor/foundry_molten_harbor"
-	$translucent 1
-	$additive 1
-	
-}

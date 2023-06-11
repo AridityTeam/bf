@@ -1,7 +1,0 @@
-"VertexLitGeneric"
-{
-	"$basetexture" "models/props_barnblitz/hand_sign001"
-	"$surfaceprop" "metal"
-	"%keywords" "tf"
-
-}

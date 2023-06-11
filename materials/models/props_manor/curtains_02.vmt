@@ -1,7 +1,0 @@
-"VertexlitGeneric"
-{
-	"$model" 1
-	"$baseTexture" "models\props_manor/curtains_02"
-	"$nocull" "1"
-}
-

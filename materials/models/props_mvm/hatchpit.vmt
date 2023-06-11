@@ -1,7 +1,0 @@
-
-"UnLitGeneric"
-{
-	"$basetexture" "models/props_mvm/hatchPit"
-	"$model" 1
-//	"$translucent" 1
-}

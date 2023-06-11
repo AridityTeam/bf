@@ -2,9 +2,9 @@
 {
 	"$basetexture" "Models/props_vehicles/pickup04"
 	
-//	"$envmap" "env_cubemap"
-//	"$normalmapalphaenvmapmask" "1" 
-//	"$envmaptint" "[.2 .2 .2]"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1" 
+	"$envmaptint" "[.2 .2 .2]"
 	
 	"$basemapalphaphongmask" "1"
 	"$phong" "1"

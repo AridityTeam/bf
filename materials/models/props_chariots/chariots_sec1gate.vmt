@@ -1,7 +1,0 @@
-"VertexLitGeneric"
-{
-	"$basetexture"	"models/props_chariots/chariots_sec1gate"
-	"$color2" "[.7 .7 .7]"
-	"$surfaceprop"	"default"
-
-}
