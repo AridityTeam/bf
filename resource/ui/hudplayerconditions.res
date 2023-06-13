@@ -70,4 +70,18 @@
 		"scaleImage"	"1"
 		"drawcolor_override"	"255 160 0 255"
 	}
+	"ConditionBurningImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ConditionBurningImage"
+		"xpos"			"0"
+		"ypos"			"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"wide"			"40"
+		"tall"			"40"
+		"image"			"../hud/condition_icons/ico_fire"
+		"scaleImage"	"1"
+		"drawcolor_override"	"244 114 43 255"
+	}
 }
