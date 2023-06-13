@@ -14,40 +14,35 @@
 
 	//"$color" "[1 1 1]"
 
-        "Proxies" 
-	 { 
+    "Proxies" 
+	{ 
         	 
-
 		"TextureScroll"
 		{
 			"texturescrollvar" "$baseTexturetransform"
 			"texturescrollrate" 4
 			"texturescrollangle" -90
 		}
-"Sine"
-	          {
-	           "sineperiod" "1"
-        	   "sinemin" "0.5"
-	           "sinemax" "0"
-        	   "resultVar" "$color[0]"
-	          }
-        	  "Sine"
-	          {
-	           "sineperiod" "1"
-        	   "sinemin" "0.5"
-	           "sinemax" "1"
-        	   "resultVar" "$color[1]"
-	          }
-        	  "Sine"
-	          {
-	           "sineperiod" "1"
-        	   "sinemin" "0.5"
-                   "sinemax" "1"
-        	   "resultVar" "$color[2]"
-	          }
-
-
-         }
-
-
-
+		"Sine"
+		{
+			"sineperiod" "1"
+			"sinemin" "0.5"
+			"sinemax" "0"
+			"resultVar" "$color[0]"
+		}
+		"Sine"
+		{
+			"sineperiod" "1"
+			"sinemin" "0.5"
+			"sinemax" "1"
+			"resultVar" "$color[1]"
+		}
+		"Sine"
+		{
+			"sineperiod" "1"
+			"sinemin" "0.5"
+			"sinemax" "1"
+			"resultVar" "$color[2]"
+		}
+	}
+}

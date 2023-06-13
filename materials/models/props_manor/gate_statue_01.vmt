@@ -1,0 +1,10 @@
+"VertexlitGeneric"
+{
+	"$model" 1
+	"$baseTexture" "models\props_manor/gate_statue_01"
+	"$envmap" "env_cubemap"
+	"$bumpmap" "models\props_manor/gate_statue_01_normal"
+	"$envmaptint" "[.1 .1 .2]"
+	"$normalmapalphaenvmapmask" 1	
+}
+

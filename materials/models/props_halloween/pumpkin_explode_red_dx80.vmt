@@ -1,0 +1,12 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models\props_halloween\pumpkin_explode_red"
+	"$bumpmap" "models\effects\flat_normal"
+
+	"$detail" "models\props_halloween/pumpkin_detail"
+	"$detailscale" "1"
+	"$detailblendfactor" 1
+	"$detailblendmode" 5
+	"$selfillum" "1"
+}
+

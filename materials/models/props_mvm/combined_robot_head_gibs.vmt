@@ -1,0 +1,12 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props_mvm\combined_robot_head_gibs"
+
+	"$phong" "1"
+	"$phongexponent" "20"
+	"$phongboost" "4"	
+	"$phongfresnelranges"	"[.5 .7 1]"
+	"$basemapalphaphongmask" "1"
+
+
+}

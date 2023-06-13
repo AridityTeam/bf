@@ -1,0 +1,17 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "models/props_mvm/cave_waterfall"
+	"$surfaceprop"	"default"
+	"$translucent" 1
+	"$model" "1"
+	"$nocull" "1"
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$basetexturetransform"
+			"texturescrollrate" -.34
+			"texturescrollangle" 90
+		}
+	}
+}

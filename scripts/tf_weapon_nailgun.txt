@@ -5,8 +5,6 @@ WeaponData
 	"BuiltRightHanded"	"0"
 	"weight"		"4"
 	"WeaponType"		"nailgun"
-	"HasTeamSkins_Viewmodel"	"1"
-	"HasTeamSkins_Worldmodel"	"1"
 	"ITEM_FLAG_NOITEMPICKUP" 	"1"
 		
 	// Attributes TF.

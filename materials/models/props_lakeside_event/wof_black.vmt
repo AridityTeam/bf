@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{	
+
+	"$baseTexture" "models\props_lakeside_event/wof_black"
+	$translucent 1
+	$additive 1
+}

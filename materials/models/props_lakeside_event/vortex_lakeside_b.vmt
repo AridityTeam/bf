@@ -1,0 +1,29 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "models\props_lakeside_event/vortex_lakeside"
+	"$additive" "1"
+	"$nofog" "1"
+
+       "$angle" 0.0
+        "$translate" "[0.0 0.0]"
+        "$center" "[0.5 0.5]"
+
+        "Proxies"
+        {
+            "LinearRamp"
+            {
+                "rate" -2
+                "initialValue" 0.0
+                "resultVar" "$angle"
+            }
+
+            "TextureTransform"
+            {
+                "translateVar" "$translate"
+                "rotateVar" "$angle"
+                "centerVar" "$center"
+                "resultVar" "$basetexturetransform"
+            }
+        }
+
+}

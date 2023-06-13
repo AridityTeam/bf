@@ -1,0 +1,20 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models\props_spytech/safe"
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.3 .3 .3]"
+	"$basealphaenvmapmask" 1
+	"$nodecal" "1"
+
+	"$phong" "1"
+	"$phongexponent" "30"
+	"$phongboost" "3"	
+	"$lightwarptexture" "models\lightwarps\weapon_lightwarp"
+	"$phongfresnelranges" "[0.25 0.5 1]"
+	"$basemapalphaphongmask" "1"
+
+//	"$rimlight" "1"
+//	"$rimlightexponent" "4"	
+//	"$rimlightboost" "3"
+}

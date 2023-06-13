@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models\props_halloween/carnival_signs_tickets"
+	"$selfillum" 1
+
+}

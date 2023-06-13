@@ -1,0 +1,11 @@
+"Modulate"
+
+{
+	$baseTexture "models/props_nucleus/MP_energy"
+	$additive 1
+	$nocull 1
+	"$mod2x" "1"
+
+
+
+}

@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models/props_soho/Escalator001"
+	"$surfaceprop" "metal"
+	"%keywords" "tf"
+}

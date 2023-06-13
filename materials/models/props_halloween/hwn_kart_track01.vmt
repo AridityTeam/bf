@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "models\props_halloween/hwn_kart_track01"
+	//$nocull 1
+}

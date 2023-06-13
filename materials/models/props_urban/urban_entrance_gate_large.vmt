@@ -1,0 +1,10 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models\props_urban/urban_entrance_gate_large"
+	"$phong" "1"
+	"$phongexponent" "55"
+	"$phongboost" "2"	
+	"$phongfresnelranges"	"[0.1 0.2 1]"
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	"$halflambert" "1"
+}

@@ -1,0 +1,34 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "models\props_moonbase/moon_interior_buttons01_illum"
+
+	"$blendtintbybasealpha" "0" 
+	"$blendtintcoloroverbase" "0"  
+
+	"$colortint_base" "{255 210 90}"
+
+	//IGNORE TMP COLOR
+	"$colortint_tmp" "[0 0 0]"
+
+	"Proxies"
+	{
+		"ItemTintColor"
+		{
+			"resultVar" "$colortint_tmp"
+		}
+		"SelectFirstIfNonZero"
+		{
+			"srcVar1"	"$colortint_tmp"
+			"srcVar2"	"$colortint_base"
+			"resultVar" "$color2"
+		}
+
+		"TextureScroll"
+		{
+			"texturescrollvar" "$basetexturetransform"
+			"texturescrollrate" -0.01
+			"texturescrollangle" 0
+		}
+	}
+	
+}

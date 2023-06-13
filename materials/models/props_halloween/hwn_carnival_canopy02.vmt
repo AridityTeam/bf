@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models\props_halloween/hwn_carnival_canopy02"
+	"$detail" "models\props_halloween/hwn_carnival_canopy01_detail"
+	"$detailscale" "6"
+	"$detailblendmode" "0"
+	"$detailblendfactor" "0.55"
+	$selfillum 1
+}
+
+

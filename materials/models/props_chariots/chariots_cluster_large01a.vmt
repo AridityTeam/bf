@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "Models/props_chariots/chariots_cluster_large01a"
+	"$nocull" "1"
+	"$phong" "1"
+	"$phongexponent" "15"
+	"$phongboost" "1"	
+	"$phongfresnelranges"	"[1 11 12]"
+	"$halflambert" "0"
+	"$basemapalphaphongmask" "1"	 
+}

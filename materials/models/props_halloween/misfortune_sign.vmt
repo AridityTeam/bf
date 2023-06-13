@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models\props_halloween/misfortune_sign"
+	"$selfillum" 1
+
+}

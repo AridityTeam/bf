@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props_halloween/halloween_arena_goal"
+	"$phong" "1"
+	"$phongexponent" "15"
+	"$phongboost" ".05"	
+	"$lightwarptexture" "models\player\pyro\pyro_lightwarp"
+	"$phongfresnelranges"	"[2 0 2]"
+	"$basemapalphaphongmask" "1"
+}
+

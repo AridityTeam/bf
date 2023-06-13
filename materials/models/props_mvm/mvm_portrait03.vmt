@@ -1,0 +1,17 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models\props_mvm/mvm_portrait03"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.8 .8 .8]"	
+	$basealphaenvmapmask 1
+	//"$basemapalphaphongmask"	"1"
+
+	"$phong" "1"
+	"$phongexponent" "60"
+	"$phongboost" "1"
+	"$phongfresnelranges"	"[.2 1 4]"
+		
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+
+}
+

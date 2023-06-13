@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models\props_mvm/deathpit_window001b"
+	"$surfaceprop" "wood"
+}

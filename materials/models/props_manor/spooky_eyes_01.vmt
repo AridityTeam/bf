@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$model" 1
+	"$baseTexture" "models\props_manor/spooky_eyes_01"
+	"$selfillum" "1"
+}
+

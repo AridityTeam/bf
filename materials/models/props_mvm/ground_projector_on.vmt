@@ -1,0 +1,17 @@
+
+"VertexLitGeneric"
+{
+        $baseTexture "models/props_mvm/ground_projector.vtf"
+        
+$selfillum "1"
+
+
+	"$phong" "1"
+	"$phongexponent" "20"
+	"$phongboost" "2"	//was 4
+	"$phongfresnelranges"	"[.2 .5 1]" 
+//	"$basemapalphaphongmask" "1"
+
+
+
+}

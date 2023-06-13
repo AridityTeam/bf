@@ -1,0 +1,20 @@
+"UnLitGeneric"
+{
+	"$basetexture"	"models/props_mining/track_lighting_blue"
+	"$surfaceprop"	"metal"
+	"$scrollspeed" "0"
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$basetexturetransform"
+			"texturescrollrate" "$scrollspeed"
+			"texturescrollangle" 0
+		}
+		"MaterialModify"
+		{
+			// fixme!  This has to be here, or material loading barfs.
+			"dummy" 0
+		}
+	}
+}

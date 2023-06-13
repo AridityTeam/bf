@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "soho/StreetStair001"
+	"$surfaceprop" "concrete"
+	"%keywords" "tf"
+}

@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$model" "1"
+	"$baseTexture" "models\props_manor/cardboard_box_sheet_01"
+	"$nocull" "1"
+}
+

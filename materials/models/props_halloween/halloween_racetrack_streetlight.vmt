@@ -1,0 +1,19 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props_halloween/halloween_racetrack_streetlight"
+	"$phong" "1"
+	"$phongexponent" "15"
+	"$phongboost" ".05"	
+	"$phongfresnelranges"	"[2 0 2]"
+	"$basemapalphaphongmask" "1"
+	"$selfillum" "1"
+	
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	"$halflambert" "0"
+
+	// Rim lighting parameters
+	"$rimlight" "1"												// To enable rim lighting (requires phong)
+	"$rimlightexponent" "15"										// Exponent for phong component of rim lighting	
+	"$rimlightboost" ".25"										// Boost for ambient cube component of rim lighting
+}
+

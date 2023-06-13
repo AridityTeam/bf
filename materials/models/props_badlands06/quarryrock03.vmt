@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/props_badlands06/QuarryRock03"
+	"$surfaceprop"	"default"
+}

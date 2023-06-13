@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"Metal/metaltrack001"
+	"$surfaceprop" "metal"
+}

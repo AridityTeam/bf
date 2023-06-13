@@ -1,0 +1,16 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "Models/props_spytech/concussionator_body_red"
+
+    "$selfillum" "1"
+    $selfillummask "Models/props_spytech/concussionator_body_selfillum"
+
+    "$phong" "1"
+    "$phongexponent" "25"
+    "$phongboost" ".4"    
+    "$lightwarptexture" "models\buildables\sentry1\Sentry1_lightwarp"
+    "$phongfresnelranges"    "[.2 .4 .8]"
+    "$halflambert" "1"
+
+}
+

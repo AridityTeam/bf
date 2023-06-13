@@ -1,0 +1,6 @@
+ "VertexLitGeneric"
+{
+	"$basetexture" "models\props_urban\temp_tower02.vtf"
+	"$surfaceprop" "wood"
+	"%keywords" "tf"
+}

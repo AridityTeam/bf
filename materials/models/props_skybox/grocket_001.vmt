@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models\props_skybox\grocket_001"
+	"$surfaceprop"	"metal"
+	"$selfillum" 1
+}

@@ -1,0 +1,18 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/props_facemovie/medic_crowbar/medic_crowbar"
+	"$surfaceprop"	"default"
+	"$bumpmap"	"models/props_facemovie/medic_crowbar/medic_crowbar_normal"
+	"$envmap"	"env_cubemap"
+	"$envmaptint" "[.5 .5 .5]"
+
+	//phong properties
+	"$phong"	"1"
+	"$phongboost"	"1"
+	"$phongexponent"	"50"
+	"$phongfresnelranges"	"[1 2 5]"
+	"$rimlight"	"1"
+	"$rimlightexponent"	"1"
+
+	"$ambientocclusion" "1"
+}

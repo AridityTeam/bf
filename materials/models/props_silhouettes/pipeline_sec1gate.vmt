@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/props_silhouettes/pipeline_sec1gate"
+	"$color2" "[.7 .7 .7]"
+	"$surfaceprop"	"default"
+
+}

@@ -1,0 +1,10 @@
+"VertexlitGeneric"
+{
+	"$model" 1
+	"$baseTexture" "models\props_manor/gravestone_sheet_01"
+	"$envmap" "env_cubemap"
+	"$bumpmap" "models\props_manor/gravestone_sheet_01_normal"
+	"$envmaptint" "[.17 .17 .25]"
+	"$normalmapalphaenvmapmask" 1	
+}
+

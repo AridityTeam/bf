@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "Models/props_swamp/man_box"
+                "$alphatest" 1
+}
+
+// TF2Maps.net Swamp Theme
+// http://tf2maps.net

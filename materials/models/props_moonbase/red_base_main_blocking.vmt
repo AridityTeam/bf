@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models\props_moonbase/red_base_main_blocking"
+	//"$selfillum" 1
+}

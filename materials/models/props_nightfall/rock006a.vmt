@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models\props_nightfall/rock006"
+	"$color2" "[.7 .7 .75]"
+}

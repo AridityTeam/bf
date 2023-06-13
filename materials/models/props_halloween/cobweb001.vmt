@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models\props_halloween/cobweb001"
+	"$translucent" 1
+	"$nodecal" "1"
+	"$nocull" "1"
+}

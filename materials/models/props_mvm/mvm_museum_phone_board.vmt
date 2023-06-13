@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_mvm/mvm_museum_phone_board"
+	"$phong" "1"
+	"$phongexponent" "100"
+	"$phongboost" "0.5"	
+	"$phongfresnelranges"	"[.7 15 20]"
+	"$bumpmap" "Models/effects/flat_normal"
+	"$nodecal" "1"
+}
+

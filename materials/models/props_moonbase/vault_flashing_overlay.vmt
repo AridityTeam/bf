@@ -1,0 +1,23 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_moonbase/vault_flashing_overlay"
+	$additive 1
+	$selfillum 1
+
+	"$blendtintbybasealpha" "0" 
+	"$blendtintcoloroverbase" "0"  
+
+	"$colortint_base" "{255 122 102}"
+	"$color2" "{255 122 102}"  
+
+	"Proxies"
+	{
+		"Sine" // a proxy which produces a sine wave
+		{
+			resultVar $selfillumtint // The shader parameter to be manipulated
+			sineperiod	0.75
+			sinemin	 	0.1
+			sinemax		 4
+		}
+	}
+}

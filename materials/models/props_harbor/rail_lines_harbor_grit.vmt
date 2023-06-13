@@ -1,0 +1,28 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models\props_harbor/rail_lines_harbor_simple"
+	//"$decal" 1
+	//"$mod2x" 1
+	"$translucent" 1
+	//"$vertexcolor" "1"
+	//"$vertexalpha" "1"
+	"%keywords" "tf"
+
+
+	//Turning overlay off on low end machines
+
+	// DX9 and up hardware
+//	">=DX90"
+//	{
+//	"$baseTexture" "models\props_harbor/rail_lines_harbor_simple"
+//	}
+//
+//	// Pre DX9 hardware
+//	"<DX90"
+//	{
+//		"$baseTexture" 	"dev/null"
+//	}
+
+
+}
+

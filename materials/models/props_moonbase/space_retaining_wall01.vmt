@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models\props_moonbase/space_retaining_wall01"
+	"$model" "1"
+//	$envmap "cuemap\cubemap_sheen001"
+
+}

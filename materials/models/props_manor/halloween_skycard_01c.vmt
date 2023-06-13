@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\props_manor/halloween_skycard_01"
+	"$alphatest" "1"
+	"$color2" "[.3 .3 .3]"
+//	"$nofog" "1"
+	"$nocull" "1"
+}
+
