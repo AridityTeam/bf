@@ -20,9 +20,9 @@ map_ents
 	}
 	pf_target
 	{
-		"item_armor"
-		{
-			"origin"	"-360 -740 -50"
-		}
+		//"item_armor"
+		//{
+		//	"origin"	"-360 -740 -50"
+		//}
 	}
 }
