@@ -3,7 +3,7 @@
 WeaponData
 {
 	// Attributes Base.
-	"printname"			"#TF_Weapon_Club"
+	"printname"			"#TF_Weapon_Machete"
 	"BuiltRightHanded"		"0"
 	"MeleeWeapon"			"1"
 	"weight"			"1"
@@ -25,17 +25,17 @@ WeaponData
 	"bucket_position"		"0"
 
 	// Model & Animation
-	"viewmodel"			"models/weapons/v_models/v_club_sniper.mdl"
-	"playermodel"			"models/weapons/w_models/w_club.mdl"
+	"viewmodel"			"models/weapons/v_models/v_machete_sniper.mdl"
+	"playermodel"			"models/weapons/w_models/w_machete.mdl"
 	"anim_prefix"			"club"
 
 	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
 	SoundData
 	{
-		"melee_miss"		"Weapon_Club.Miss"
-		"melee_hit"		"Weapon_Club.HitFlesh"
-		"melee_hit_world"	"Weapon_Club.HitWorld"
-		"burst"			"Weapon_Club.MissCrit"
+		"melee_miss"		"Weapon_Machete.Miss"
+		"melee_hit"		"Weapon_Machete.HitFlesh"
+		"melee_hit_world"	"Weapon_Machete.HitWorld"
+		"burst"			"Weapon_Machete.MissCrit"
 	}
 
 	// Weapon Sprite data is loaded by the Client DLL.
@@ -43,7 +43,7 @@ WeaponData
 	{
 		"weapon"
 		{
-				"file"		"sprites/bucket_club"
+				"file"		"sprites/bucket_machete"
 				"x"			"30"
 				"y"			"48"
 				"width"		"200"
@@ -51,7 +51,7 @@ WeaponData
 		}
 		"weapon_s"
 		{	
-				"file"		"sprites/bucket_club"
+				"file"		"sprites/bucket_machete"
 				"x"			"30"
 				"y"			"48"
 				"width"		"200"
