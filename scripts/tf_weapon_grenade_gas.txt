@@ -31,6 +31,6 @@
 	"ExplosionWaterEffect"	"ExplosionCore_MidAir_underwater"
 	
 	// Model & Animation
-	"viewmodel"			"models/weapons/v_models/v_grenade_temp.mdl"
+	"viewmodel"			"models/weapons/v_models/v_grenade_gas_spy.mdl"
 	"playermodel"			"models/weapons/w_models/w_grenade_gas.mdl"
 }
