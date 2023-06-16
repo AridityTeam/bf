@@ -1,4 +1,4 @@
-"Resource/UI/HudAmmoWeapons.res"
+"Resource/UI/HudAmmoGrenades.res"
 {
 	"HudWeaponGrenadesBG"
 	{
