@@ -18,5 +18,6 @@
 		"ctf_2fort"			"ctf_2fort"
 		"ctf_well"			"ctf_well"
 		"ctf_badlands"		"ctf_badlands"
+		"arena_2fort"			"arena_2fort"
 	}
 }

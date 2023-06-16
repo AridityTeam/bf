@@ -10,4 +10,5 @@ Our map rotation is:
 - Well (CP)
 - Well (CTF)
 - 2Fort
+- 2Fort (Arena)
 - Hydro

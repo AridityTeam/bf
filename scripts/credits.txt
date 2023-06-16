@@ -11,6 +11,7 @@
 		"Unnamed/Twilight Bob"
 		{
 			"code"				"1"
+			"mapper"			"1"
 			"textures"			"1"
 			"models"			"1"
 			"animation"			"1"
