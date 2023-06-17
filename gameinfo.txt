@@ -10,8 +10,8 @@
 	nocrosshair 	"0"
 	nodegraph		"0"
 	icon			"resource/game"
-	developer		"https://discord.gg/D3Fzdew"
-	developer_url		""
+	developer		"Beta Fortress 2 Team"
+	developer_url		"https://discord.gg/NTwGXZzmrV"
 	manual			""
 	hidden_maps
 	{

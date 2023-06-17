@@ -7,6 +7,5 @@ ad_dustbowl
 ad_dustbowl2
 ad_gravelpit
 ctf_2fort
-arena_2fort
 ctf_well
 ctf_badlands
