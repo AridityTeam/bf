@@ -11,7 +11,7 @@
 	"HasTeamSkins_Worldmodel"			"1"
 	
 	// Attributes TF.
-	"Damage"			"10"
+	"Damage"			"15"
 	"DamageRadius"		"132"
 	"TimeFireDelay"			"0.8"
 	"TimeIdle"			"5.0"
