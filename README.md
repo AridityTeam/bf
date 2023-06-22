@@ -1,3 +1,3 @@
-# Beta Fortress 2
-This mod is based on Pre-Fortress 2 0.6 , aims to make a trailer 2 accurate mod
-# DISCLAIMER!!!!: Beta Fortress 2 is not affiliated with Concussion Studios or The Pre-fortress 2 Team, this is a fan made mod.
+# Beta Fortress
+This mod is based on Pre-Fortress 2 0.6 , aims to make a tf2 trailer 2 mod 
+# DISCLAIMER!!!!: Beta Fortress is not affiliated with Concussion Studios or The Pre-fortress 2 Team, this is a fan made mod.
