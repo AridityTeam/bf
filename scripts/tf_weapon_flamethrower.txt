@@ -65,7 +65,7 @@ WeaponData
 		}
 		"weapon_s"
 		{	
-				"file"		"sprites/bucket_flamethrower_blue"
+				"file"		"sprites/bucket_flamethrower_red"
 				"x"			"30"
 				"y"			"48"
 				"width"		"200"
