@@ -60,7 +60,7 @@ WeaponData
 	{
 		"weapon"
 		{
-				"file"		"sprites/bucket_grenlaunch"
+				"file"		"sprites/bucket_pipelaunch"
 				"x"			"30"
 				"y"			"48"
 				"width"		"200"
@@ -68,7 +68,7 @@ WeaponData
 		}
 		"weapon_s"
 		{	
-				"file"		"sprites/bucket_grenlaunch"
+				"file"		"sprites/bucket_pipelaunch"
 				"x"			"30"
 				"y"			"48"
 				"width"		"200"

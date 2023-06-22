@@ -56,18 +56,18 @@ WeaponData
 		"weapon"
 		{
 				"file"		"sprites/bucket_pistol"
-				"x"		"0"
-				"y"		"0"
+				"x"			"30"
+				"y"			"48"
 				"width"		"200"
-				"height"		"128"
+				"height"	"128"
 		}
 		"weapon_s"
 		{	
 				"file"		"sprites/bucket_pistol"
-				"x"		"0"
-				"y"		"0"
+				"x"			"30"
+				"y"			"48"
 				"width"		"200"
-				"height"		"128"
+				"height"	"128"
 		}
 		"ammo"
 		{
