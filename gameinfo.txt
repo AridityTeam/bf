@@ -1,6 +1,6 @@
 "GameInfo"
 {
-	game			"Beta Fortress 2"
+	game			"Beta Fortress"
 	gamelogo 1
 	title 			""
 	title2			""
@@ -10,7 +10,7 @@
 	nocrosshair 	"0"
 	nodegraph		"0"
 	icon			"resource/game"
-	developer		"Beta Fortress 2 Team"
+	developer		"Beta Fortress Team"
 	developer_url		"https://discord.gg/NTwGXZzmrV"
 	manual			""
 	hidden_maps
