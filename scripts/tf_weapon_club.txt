@@ -44,16 +44,16 @@ WeaponData
 		"weapon"
 		{
 				"file"		"sprites/bucket_machete"
-				"x"			"30"
-				"y"			"48"
+				"x"			"3"
+				"y"			"30"
 				"width"		"200"
 				"height"	"128"
 		}
 		"weapon_s"
 		{	
 				"file"		"sprites/bucket_machete"
-				"x"			"30"
-				"y"			"48"
+				"x"			"3"
+				"y"			"30"
 				"width"		"200"
 				"height"	"128"
 		}
