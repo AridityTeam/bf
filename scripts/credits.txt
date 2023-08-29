@@ -22,10 +22,11 @@
 		}
 		"Bvvth556/Big Beef"
 		{
-			"other"
-			{
-			"English"		"Game's icon"
-			}
+			"tester"				"1"
+		}
+		"Play"
+		{
+			"tester"				"1"
 		}
 	}
 	"special"
