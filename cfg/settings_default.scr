@@ -173,11 +173,11 @@ DESCRIPTION SERVER_OPTIONS
 		{ CATEGORY }
 	}
 	
-	"pf_armor_enabled"
+	"mp_stalemate_enable"
 	{
-		"#TF_Armor"
+	    "Enable Sudden Death"
 		{ BOOL }
-		{ "1" }
+		{ "1"  }
 	}
 	
 	"bf_enable_civilian"
