@@ -15,10 +15,6 @@
 			"textures"			"1"
 			"models"			"1"
 			"animation"			"1"
-			"other"
-			{
-			"English"		"Kill icons"
-			}
 		}
 		"PracticeMedicine"
 		{
