@@ -20,6 +20,12 @@
 			"English"		"Kill icons"
 			}
 		}
+		"PracticeMedicine"
+		{
+			"code"				"1"
+			"linux_code"			"1"
+			"tester"			"1"
+		}
 		"Bvvth556/Big Beef"
 		{
 			"tester"				"1"
