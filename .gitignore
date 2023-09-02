@@ -1,5 +1,7 @@
 # source and debug files
 *.pdb
+*.lib
+*.dbg
 *.log
 *.prt
 *.vmf
