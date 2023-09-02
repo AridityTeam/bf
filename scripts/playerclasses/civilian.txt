@@ -15,9 +15,9 @@ PlayerClass
 	// Grenades.
 
 	// Weapons.
-	"weapon1"		""
-	"weapon2"		""
-	"weapon3"		""
+	"weapon1"		"TF_WEAPON_SHOVEL"
+	"weapon2"		"TF_WEAPON_SHOVEL"
+	"weapon3"		"TF_WEAPON_SHOVEL"
 
 	//Thirdperson
 	"cameraoffset_forward"	"85"
