@@ -7,17 +7,17 @@ PlayerClass
 	"name"			"civilian"
 	"model"			"models/player/civilian.mdl"
 	"localize_name"		"TF_Class_Name_Civilian"
-	"speed_max"		"240"
-	"health_armor_max"	"50"
-	"health_max"		"50"
-	"armor_max"		"0"
+	"speed_max"		"250"
+	"health_armor_max"	"200"
+	"health_max"		"200"
+	"armor_max"		"None"
 
 	// Grenades.
 
 	// Weapons.
-	"weapon1"		"TF_WEAPON_SHOVEL"
-	"weapon2"		"TF_WEAPON_SHOVEL"
-	"weapon3"		"TF_WEAPON_SHOVEL"
+	"weapon1"		"TF_WEAPON_BAT"
+	"weapon2"		""
+	"weapon3"		""
 
 	//Thirdperson
 	"cameraoffset_forward"	"85"
