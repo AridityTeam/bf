@@ -24,6 +24,7 @@
 		}
 		"Bvvth556/Big Beef"
 		{
+			"gh_contributor"			"1"
 			"tester"				"1"
 		}
 		"Play"
