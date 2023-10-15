@@ -47,5 +47,8 @@
 		"Pre-Fortress 2"
 		{
 		}
+		"Team Fortress 2 Classic"
+		{
+		}
 	}
 }	
