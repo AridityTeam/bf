@@ -9,6 +9,9 @@
 	"$detailblendfactor" .01
 	"$detailblendmode" 6
 
+	"$yellow" "0"
+	"$one" "1"
+
 
 // 	"$bbqamount" "1"	
 // 	"$two" "2.35"
@@ -20,7 +23,7 @@
 
 
 	"$phong" "1"
-	"$phongexponenttexture"  "models/player/demo/demoman_exponent"
+	"$phongexponent" "20"
 	"$phongboost" ".3"	
 	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
 	"$phongfresnelranges"	"[.3 1 8]"
@@ -51,5 +54,15 @@
 		{
 			"resultVar" "$detailblendfactor"
 		}
+		"YellowLevel"
+		{
+			"resultVar" "$yellow"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$yellow"
+			"resultVar" "$color2"
+		}
+
 	}
 }

@@ -35,12 +35,16 @@
 	"$invulnfmaxoutput" "1"
 
 	"$phong" "1"
-	"$phongexponenttexture"  "models/player/demo/demoman_exponent"
+	"$phongexponent"  "35"
 	"$phongboost" "1"	
 	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
 	"$phongfresnelranges"	"[11 1 8]"
 	
-		
+	// Rim lighting parameters
+	"$rimlight" "1"		
+	"$rimlightexponent" "11"
+	"$rimlightboost" "5"	
+	
 	"Proxies"
 	{
 		"AnimatedTexture"
