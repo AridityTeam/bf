@@ -23,9 +23,12 @@
 			"textures"			"1"
 			"tester"				"1"
 		}
+	}
+	"contributors"
+	{
 		"Play"
 		{
-			"tester"				"1"
+			"tester" "1"
 		}
 	}
 	"special"
