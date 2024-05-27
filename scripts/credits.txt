@@ -2,14 +2,9 @@
 {
 	"developers"
 	{
-		"Mr Malos"
-		{
-			"lead"				"1"
-			"textures"			"1"
-			"mapper"			"1"
-		}
 		"Unnamed/Twilight Bob"
 		{
+			"lead"				"1"
 			"code"				"1"
 			"mapper"			"1"
 			"textures"			"1"
@@ -25,6 +20,7 @@
 		"Bvvth556/Big Beef"
 		{
 			"gh_contributor"			"1"
+			"textures"			"1"
 			"tester"				"1"
 		}
 		"Play"
