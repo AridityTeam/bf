@@ -20,7 +20,7 @@ WeaponData
 	"UseRapidFireCrits"	"1"
 
 	// Ammo & Clip.
-	"primary_ammo"		"TF_AMMO_PRIMARY"
+	"primary_ammo"		"TF_AMMO_SECONDARY"
 	"secondary_ammo"	"None"
 	clip_size		25
 	default_clip		25
