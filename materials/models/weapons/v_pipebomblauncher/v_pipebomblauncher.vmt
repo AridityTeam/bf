@@ -8,6 +8,9 @@
 	"$phongboost" "3"	
 	"$lightwarptexture" "models\lightwarps\weapon_lightwarp"
 	"$phongfresnelranges"	"[.25 .5 1]"
+	
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.2 .2 .2]"
 
 	//"$rimlight" "1"
 	//"$rimlightexponent" "4"	
@@ -24,5 +27,3 @@
 		}
 	}
 }
-
-//Made by Jasper
