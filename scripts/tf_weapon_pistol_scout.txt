@@ -1,54 +1,55 @@
 WeaponData
 {
 	// Attributes Base.
-	"printname"		"#TF_Weapon_SMG"
+	"printname"		"#TF_Weapon_Pistol"
 	"BuiltRightHanded"	"0"
 	"weight"		"2"
 	"WeaponType"		"secondary"
 	"ITEM_FLAG_NOITEMPICKUP" 	"1"
 		
 	// Attributes TF.
-	"Damage"		"8"
-	"Range"			"8192"
+	"Damage"		"15"
+	"Range"			"4096"
 	"BulletsPerShot"	"1"
-	"Spread"		"0.025"
-	"TimeIdle"		"10.0"
-	"TimeIdleEmpty"		"1.0"
-	"TimeFireDelay"		"0.1"
+	"Spread"		"0.04"
+	"TimeFireDelay"		"0.15"
+	"TimeIdle"		"5.0"
+	"TimeIdleEmpty"		"0.25"
+	"TimeReload"		"0.5"
 	"ProjectileType"	"projectile_bullet"
 	"BrassModel"		"models/weapons/shells/shell_pistol.mdl"
 	"UseRapidFireCrits"	"1"
+	"TracerEffect"		"bullet_pistol_tracer01"
+	"HasTeamSkins_Viewmodel"	"1"
+	"HasTeamSkins_Worldmodel"	"1"
 
 	// Ammo & Clip.
 	"primary_ammo"		"TF_AMMO_SECONDARY"
 	"secondary_ammo"	"None"
-	clip_size		25
-	default_clip		25
-	"MaxAmmo"			"75"
+	clip_size		12
+	default_clip		12
 
 	// Buckets.
-	"bucket"		"0"
+	"bucket"		"1"
 	"bucket_position"	"0"
-	"TracerEffect"		"bullet_pistol_tracer01"
-
-
-	// Muzzleflash
-	"MuzzleFlashParticleEffect" "muzzle_smg"
-	"MuzzleFlashModel"			"models/effects/sentry1_muzzle/sentry1_muzzle.mdl"
 
 	// Animation.
-	"viewmodel"		"models/weapons/v_models/v_smg_scout.mdl"
-	"playermodel"	"models/weapons/w_models/w_smg.mdl"
-	"anim_prefix"	"ac"
+	"viewmodel" "models/weapons/v_models/v_pistol_scout.mdl"
+	"playermodel" "models/weapons/w_models/w_pistol.mdl"
+	"anim_prefix"		"ac"
+
+	// Muzzleflash
+	"MuzzleFlashParticleEffect" "muzzle_pistol"
+	"MuzzleFlashModel"			"models/effects/sentry1_muzzle/sentry1_muzzle.mdl"
 
 	// Sounds.
 	// Max of 16 per category (ie. max 16 "single_shot" sounds).
 	SoundData
 	{
-		"reload"		"Weapon_SMG.WorldReload"
-		"empty"			"Weapon_SMG.ClipEmpty"	
-		"single_shot"		"Weapon_SMG.Single"
-		"burst"			"Weapon_SMG.SingleCrit"
+		"reload"			"Weapon_Pistol.WorldReload"
+		"empty"			"Weapon_Pistol.ClipEmpty"	
+		"single_shot"		"Weapon_Pistol.Single"
+		"burst"			"Weapon_Pistol.SingleCrit"
 	}
 
 	// Weapon Sprite data is loaded by the Client DLL.
@@ -56,7 +57,7 @@ WeaponData
 	{
 		"weapon"
 		{
-				"file"		"sprites/bucket_smg"
+				"file"		"sprites/bucket_pistol"
 				"x"			"30"
 				"y"			"48"
 				"width"		"200"
@@ -64,7 +65,7 @@ WeaponData
 		}
 		"weapon_s"
 		{	
-				"file"		"sprites/bucket_smg"
+				"file"		"sprites/bucket_pistol"
 				"x"			"30"
 				"y"			"48"
 				"width"		"200"
