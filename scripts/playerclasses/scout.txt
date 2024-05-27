@@ -20,7 +20,7 @@ PlayerClass
 
 	// Weapons.
 	"weapon1"		"TF_WEAPON_BAT"
-	"weapon2"		"TF_WEAPON_PISTOL_SCOUT"
+	"weapon2"		"TF_WEAPON_SMG"
 	"weapon3"		"TF_WEAPON_NAILGUN"
 
 	AmmoMax
