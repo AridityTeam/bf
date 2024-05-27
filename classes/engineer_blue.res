@@ -29,7 +29,6 @@
 			"attached_model"
 			{
 				"modelname" "models/weapons/w_models/w_wrench.mdl"
-				"skin"		"1"
 			}
 		}	
 	}
