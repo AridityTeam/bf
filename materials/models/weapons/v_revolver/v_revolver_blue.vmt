@@ -1,6 +1,6 @@
 "VertexLitGeneric"
 {
-	"$basetexture"	"models\weapons\v_revolver\v_revolver"
+	"$basetexture"	"models\weapons\v_revolver\v_revolver_blue"
 	
 	"$phong" "1"
 	"$phongexponent" "25"
