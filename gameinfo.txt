@@ -10,8 +10,8 @@
 	nocrosshair 	"0"
 	nodegraph		"0"
 	icon			"resource/game"
-	developer		"Beta Fortress Team"
-	developer_url		"https://discord.gg/NTwGXZzmrV"
+	developer		"Aridity Team"
+	developer_url		"https://discord.gg/ACmtW8pM7B"
 	manual			""
 	hidden_maps
 	{
