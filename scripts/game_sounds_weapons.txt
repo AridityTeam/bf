@@ -1799,6 +1799,23 @@
 	"wave"		"weapons/draw_secondary.wav"
 }
 
+"Weapon_SMG.SlideBack"
+{
+	"channel"	"CHAN_AUTO"
+	"soundlevel"	"SNDLVL_74dB"
+	"volume"	".5"
+	"wave"		"weapons/smg_slideback_1.wav"
+}
+
+"Weapon_SMG.SlideForward"
+{
+	"channel"	"CHAN_AUTO"
+	"soundlevel"	"SNDLVL_74dB"
+	"volume"	".5"
+	"wave"		"weapons/smg_slideforward_1.wav"
+}
+
+
 // ------------------------------------------------------------------------------------ //
 // SUPER SMG
 // ------------------------------------------------------------------------------------ //
@@ -1807,7 +1824,7 @@
 	"channel"	"CHAN_WEAPON"
 	"soundlevel"	"SNDLVL_94dB"
 	"volume"	"1.0"
-	"wave"		")weapons/smg_shoot.wav"
+	"wave"		"weapons/smg_shoot.wav"
 }
 
 "Weapon_SuperSMG.Reload"
