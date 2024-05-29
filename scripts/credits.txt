@@ -24,11 +24,10 @@
 			"tester"				"1"
 		}
 	}
-	"contributors"
+	"playtesters"
 	{
-		"Play"
+		"PlaySource"
 		{
-			"tester" "1"
 		}
 	}
 	"special"
