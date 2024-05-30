@@ -19,6 +19,11 @@
 		}
 		"Bvvth556/Big Beef"
 		{
+		"other"
+		{
+			"English"		"Providing some leaked TF2 Beta assets"
+		}
+
 			"gh_contributor"			"1"
 			"textures"			"1"
 			"tester"				"1"
