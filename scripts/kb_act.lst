@@ -42,7 +42,6 @@
 "blank"			"=========================="
 "+attack"		"#Valve_Primary_Attack"
 "+reload"		"#Valve_Reload_Weapon"
-"+grenade1"		"#TF_Primary_Grenade"
 "+grenade2"		"#TF_Secondary_Grenade"
 "invprev"		"#Valve_Previous_Weapon"
 "invnext"		"#Valve_Next_Weapon"
