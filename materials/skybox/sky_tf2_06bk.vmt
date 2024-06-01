@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "skybox/sky_tf2_06bk"
+	"$nofog" "1"
+	"$ignorez" "1"
+	"%keywords" "tf"
+}
