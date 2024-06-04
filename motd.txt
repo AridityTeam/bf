@@ -12,3 +12,4 @@ Our map rotation is:
 - Well (CTF)
 - 2Fort
 - Hydro
+- Staredown
