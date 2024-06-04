@@ -1,26 +1,14 @@
 "VertexLitGeneric"
 {
-	"$baseTexture" "models\weapons\v_pipebomblauncher\v_pipebomblauncher"
-	"$bumpmap"  "models\weapons\v_pipebomblauncher\v_pipebomblauncher_normal"
+	"$baseTexture" "models\weapons\v_pipebomblauncher/v_pipebomblauncher"
+	$BASEMAPALPHAPHONGMASK 1
+//	"$bumpmap" "models/weapons\v_pipebomblauncher\v_pipebomblauncher_normal"
 
 	"$phong" "1"
-	"$phongexponent" "75"
-	"$phongboost" "3"	
+	"$phongexponent" "100"
+	"$phongboost" "2"	
 	"$lightwarptexture" "models\lightwarps\weapon_lightwarp"
 	"$phongfresnelranges"	"[.25 .5 1]"
-	
-	//"$rimlight" "1"
-	//"$rimlightexponent" "4"	
-	//"$rimlightboost" "1.5"
 
 	"$color2" "[ 0.6 0.6 0.6 ]"
-
-	// Cloaking
-	"$cloakPassEnabled" "1"
-	"Proxies"
-	{
-		"weapon_invis"
-		{
-		}
-	}
 }
