@@ -21,12 +21,17 @@
 		{
 		"other"
 		{
-			"English"		"Providing some leaked TF2 Beta assets"
+			"English"		"Provided leaked TF2 assets"
 		}
-
+            "Mapper"			"1"           
 			"gh_contributor"			"1"
 			"textures"			"1"
 			"tester"				"1"
+		}
+		"Soviet Hoovy"
+		{
+            "Mapper"			"1"
+			"tester"			"1"
 		}
 	}
 	"playtesters"
