@@ -8,6 +8,5 @@ ad_dustbowl2
 ad_gravelpit
 ctf_2fort
 ctf_well
-cp_badlands
 ctf_badlands
 cp_staredown
