@@ -1,6 +1,6 @@
 "VertexLitGeneric"
 {
-	"$basetexture"	"models\player\medic\medic_backpack_red"
+	"$basetexture"	"models/player/medic/medic_backpack_red"
 		"$basemapalphaphongmask" "1"
 		"$detail" "effects/tiledfire/fireLayeredSlowTiled512.vtf"	
 	"$detailscale" "2"
@@ -28,12 +28,15 @@
 	"$rimlightexponent" "4"										// Exponent for phong component of rim lighting	
 	"$rimlightboost" "2"										// Boost for ambient cube component of rim lighting
 
-	// Cloaking
-	"$cloakPassEnabled" "1"
+	"$yellow" "0"
 
+	"$cloakPassEnabled" "1"
 	"Proxies"
 	{
-		"spy_invis"
+		"spy_invis" //wmodel and team color cloak support
+		{
+		}
+		"invis" //vmodel cloak support
 		{
 		}
 		"AnimatedTexture"
@@ -45,6 +48,15 @@
 		"BurnLevel"
 		{
 			"resultVar" "$detailblendfactor"
+		}
+		"YellowLevel"
+		{
+			"resultVar" "$yellow"
+		}
+		"Equals"
+		{
+			"srcVar1" "$yellow"
+			"resultVar" "$color2"
 		}
 	}
 }

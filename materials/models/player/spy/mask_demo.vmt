@@ -1,6 +1,6 @@
 "VertexLitGeneric"
 {
-	"$basetexture" "models\player\spy\mask_demo"
+	"$basetexture" "models/player/spy/mask_demo"
 //	"$bumpmap" "models/player/spy/spy_normal"
 		"$basemapalphaphongmask" "1"
 	
@@ -30,6 +30,5 @@
 			"animatedtextureframenumvar" "$detailframe"
 			"animatedtextureframerate" 30
 		}
-
 	}
 }

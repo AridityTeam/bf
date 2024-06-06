@@ -1,7 +1,8 @@
 "VertexLitGeneric"
 {
 	"$basetexture"	"models/weapons/v_shotgun/v_shotgun"
-	"$bumpmap" "models/weapons\v_shotgun\v_shotgun_normal"
+//	"$bumpmap" "models/weapons\v_shotgun\v_shotgun_normal"
+	$BASEMAPALPHAPHONGMASK 1
 
 	"$normalmapalphaenvmapmask" 1
 	"$envmap" "env_cubemap"
@@ -13,11 +14,11 @@
 	"$lightwarptexture" "models\lightwarps\weapon_lightwarp"
 	"$phongfresnelranges"	"[.25 .5 1]"
 
-	//"$rimlight" "1"
-	//"$rimlightexponent" "10"	
-	//"$rimlightboost" "1.5"
+	"$rimlight" "1"
+	"$rimlightexponent" "10"	
+	"$rimlightboost" "1.5"
 
-	// none of this file is even technically used, but it's here anyway.
+	// Cloaking
 	"$cloakPassEnabled" "1"
 	"Proxies"
 	{

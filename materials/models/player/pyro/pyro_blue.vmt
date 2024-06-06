@@ -7,27 +7,31 @@
 	"$detailblendfactor" 0.0
 	"$detailblendmode" 6
 
+	"$yellow" "0"
+	"$one" "1"
+
+
 	"$phong" "1"
-	//"$phongexponent" "15"
-	"$phongexponenttexture" "models\player\pyro\pyro_exponent"
-	"$phongboost" ".5"	
+	"$phongexponent" "15"
+	"$phongboost" "1"	
 	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
 	"$phongfresnelranges"	"[2 1 5]"
 	"$halflambert" "1"
 
 	// Rim lighting parameters
-//	"$rimlight" "1"												// To enable rim lighting (requires phong)
-//	"$rimlightexponent" "4"										// Exponent for phong component of rim lighting	
-//	"$rimlightboost" "2"										// Boost for ambient cube component of rim lighting
-
-	// Cloaking
-	"$cloakPassEnabled" "1"
+	"$rimlight" "1"												// To enable rim lighting (requires phong)
+	"$rimlightexponent" "4"										// Exponent for phong component of rim lighting	
+	"$rimlightboost" "2"										// Boost for ambient cube component of rim lighting
 
 	"360?$color2" "[ 0.75 0.75 0.7 ]"
 
+	"$cloakPassEnabled" "1"
 	"Proxies"
 	{
-		"spy_invis"
+		"spy_invis" //wmodel and team color cloak support
+		{
+		}
+		"invis" //vmodel cloak support
 		{
 		}
 		"AnimatedTexture"
@@ -39,6 +43,15 @@
 		"BurnLevel"
 		{
 			"resultVar" "$detailblendfactor"
+		}
+		"YellowLevel"
+		{
+			"resultVar" "$yellow"
+		}
+		"Equals"
+		{
+			"srcVar1" "$yellow"
+			"resultVar" "$color2"
 		}
 	}
 }

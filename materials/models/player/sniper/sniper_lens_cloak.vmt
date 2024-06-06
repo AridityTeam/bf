@@ -5,8 +5,8 @@
 	"$bluramount" 1
  	"$refractamount" ".5"
 	"$normalmap" "models/player/sniper/sniper_normal"
-	"$refracttinttexture" "models\player\sniper\sniper_lens"
-	"$basetexture" "models\player\sniper\sniper_lens"
+	"$refracttinttexture" "models/player/sniper/sniper_lens"
+	"$basetexture" "models/player/sniper/sniper_lens"
 	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
 
 	"$nofog" 1
@@ -23,7 +23,10 @@
 
 	"Proxies"
 	{
-		"spy_invis"
+		"spy_invis" //wmodel and team color cloak support
+		{
+		}
+		"invis" //vmodel cloak support
 		{
 		}
 	}

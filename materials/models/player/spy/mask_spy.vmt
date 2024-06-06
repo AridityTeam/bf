@@ -1,6 +1,6 @@
 "VertexLitGeneric"
 {
-	"$basetexture" "models\player\spy\mask_spy"
+	"$basetexture" "models/player/spy/mask_spy"
 	"$basemapalphaphongmask" "1"
 	"$phong" "1"
 	"$phongboost" ".2"	
@@ -28,6 +28,5 @@
 			"animatedtextureframenumvar" "$detailframe"
 			"animatedtextureframerate" 30
 		}
-
 	}
 }

@@ -1,11 +1,11 @@
 "VertexLitGeneric"
 {
 	"$basetexture"	"models/player/soldier/soldier_red_invun"
-	"$bumpmap" "models/player/soldier/soldier_normal"
 	<dx90
 	{
 		 	"$bumpmap" "water/dx80_tfwater001_normal"
 	}
+	"$bumpmap" "water/tfwater001_normal"
 	"$envmap" "effects/invun_red"
 	"$surfaceprop" "metal"
 	"$halflambert" "1"
@@ -41,18 +41,17 @@
 	"$phongfresnelranges"	"[11 1 8]"
 	
 	// Rim lighting parameters
-	//"$rimlight" "1"		
-	//"$rimlightexponent" "11"
-	//"$rimlightboost" "5"	
+	"$rimlight" "1"		
+	"$rimlightexponent" "11"
+	"$rimlightboost" "5"	
 	
-	// Cloaking
 	"$cloakPassEnabled" "1"
-
-	"360?$color2" "[ 0.7 0.7 0.7 ]"
-
 	"Proxies"
 	{
-		"spy_invis"
+		"spy_invis" //wmodel and team color cloak support
+		{
+		}
+		"invis" //vmodel cloak support
 		{
 		}
 		"AnimatedTexture"

@@ -8,13 +8,10 @@
 	"$detailblendfactor" .01
 	"$detailblendmode" 6
 
-// "$bbqamount" "1"	
-// 	"$two" "2.35"
-// 	"$one" "1"
-// 	"$absburnminusone" "1"
-// 	"$burnminusone" "1"
-// 	"$finalburnlevel" "1"
-// 	"$burnlevel" "0"
+
+	"$yellow" "0"
+	"$one" "1"
+
 
 	"$phong" "1"
 	"$phongexponent" "20"
@@ -28,12 +25,13 @@
 	"$rimlightexponent" "4"										// Exponent for phong component of rim lighting	
 	"$rimlightboost" "2"										// Boost for ambient cube component of rim lighting
 
-	// Cloaking
 	"$cloakPassEnabled" "1"
-
 	"Proxies"
 	{
-		"spy_invis"
+		"spy_invis" //wmodel and team color cloak support
+		{
+		}
+		"invis" //vmodel cloak support
 		{
 		}
 		"AnimatedTexture"
@@ -45,6 +43,15 @@
 		"BurnLevel"
 		{
 			"resultVar" "$detailblendfactor"
+		}
+		"YellowLevel"
+		{
+			"resultVar" "$yellow"
+		}
+		"Equals"
+		{
+			"srcVar1" "$yellow"
+			"resultVar" "$color2"
 		}
 	}
 }

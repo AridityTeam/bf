@@ -1,12 +1,15 @@
 "VertexLitGeneric"
 {
-	"$basetexture" "models\player\engineer\engineer_blue"
-	"$bumpmap" "models\player\engineer\engineer_normal"
+	"$basetexture" "models/player/engineer/engineer_blue"
+	"$bumpmap" "models/player/engineer/engineer_normal"
 	"$detail" "effects/tiledfire/fireLayeredSlowTiled512.vtf"	
 	"$detailscale" "5"
 	"$detailblendfactor" .01
 	"$detailblendmode" 6
 
+
+	"$yellow" "0"
+	"$one" "1"
 
 // 	"$bbqamount" "1"	
 // 	"$two" "2.35"
@@ -28,14 +31,16 @@
 	"$rimlight" "1"												// To enable rim lighting (requires phong)
 	"$rimlightexponent" "4"										// Exponent for phong component of rim lighting	
 	"$rimlightboost" "2"										// Boost for ambient cube component of rim lighting
-	// Cloaking
-	"$cloakPassEnabled" "1"
 
 	"360?$color2" "[ 0.8 0.8 0.8 ]"
 
+	"$cloakPassEnabled" "1"
 	"Proxies"
 	{
-		"spy_invis"
+		"spy_invis" //wmodel and team color cloak support
+		{
+		}
+		"invis" //vmodel cloak support
 		{
 		}
 		"AnimatedTexture"
@@ -47,6 +52,15 @@
 		"BurnLevel"
 		{
 			"resultVar" "$detailblendfactor"
+		}
+		"YellowLevel"
+		{
+			"resultVar" "$yellow"
+		}
+		"Equals"
+		{
+			"srcVar1" "$yellow"
+			"resultVar" "$color2"
 		}
 	}
 }

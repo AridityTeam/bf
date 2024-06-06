@@ -35,15 +35,25 @@
 	"$invulnfmaxoutput" "1"
 
 	"$phong" "1"
-	"$phongexponenttexture" "models\player\hvyweapon\hvyweapon_exponent"
+	"$phongexponent"  "35"
 	"$phongboost" "1"	
 	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
 	"$phongfresnelranges"	"[11 1 8]"
 	
-
+	// Rim lighting parameters
+	"$rimlight" "1"		
+	"$rimlightexponent" "11"
+	"$rimlightboost" "5"	
 	
+	"$cloakPassEnabled" "1"
 	"Proxies"
 	{
+		"spy_invis" //wmodel and team color cloak support
+		{
+		}
+		"invis" //vmodel cloak support
+		{
+		}
 		"AnimatedTexture"
 		{
 			"animatedtexturevar" "$bumpmap"
