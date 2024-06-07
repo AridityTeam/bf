@@ -1,14 +1,14 @@
 "VertexLitGeneric"
 
 {
-	"$basetexture" "models/player/spy/spy_hands_blue"
+	"$basetexture" "models\player\spy\spy_hands_blue"
 	"$bumpmap" "models/player/spy/spy_hands_normal"
 		
 	"$phong" "1"
 	//"$phongexponenttexture" "models/player/spy/spy_hands_exponent"
 	"$phongexponent" "5"
 	"$phongboost" ".25"	
-	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	"$lightwarptexture" "models/lightwarps/hand_lightwarp"
 	"$phongfresnelranges"	"[.5 .5 10]"
 	"$halflambert" "1"
 
@@ -19,13 +19,11 @@
 
 	"360?$color2" "[ 0.65 0.65 0.7 ]"
 
+	// Cloaking
 	"$cloakPassEnabled" "1"
 	"Proxies"
 	{
-		"spy_invis" //wmodel and team color cloak support
-		{
-		}
-		"invis" //vmodel cloak support
+		"vm_invis"
 		{
 		}
 	}
