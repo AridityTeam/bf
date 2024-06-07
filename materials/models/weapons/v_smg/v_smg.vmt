@@ -8,11 +8,8 @@
 	"$lightwarptexture" "models\lightwarps\weapon_lightwarp"
 	"$phongfresnelranges"	"[.25 .5 1]"
 	"$basemapalphaphongmask" "1"
-	
-    "$envmap" "env_cubemap"
-	"$envmaptint" "[1 1 1]"
-	
-	//"$rimlight" "1"
-	//"$rimlightexponent" "3"	
-	//"$rimlightboost" ".25"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "3"	
+	"$rimlightboost" ".25"
 }
