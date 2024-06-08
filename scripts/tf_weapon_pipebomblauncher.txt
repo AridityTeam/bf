@@ -8,16 +8,17 @@ WeaponData
 	"ITEM_FLAG_NOITEMPICKUP" "1"
 	"HasTeamSkins_Viewmodel"	"1"
 	"HasTeamSkins_Worldmodel""1"
+	
 	// Attributes TF.
-	"damage"		"100"
-	"DamageRadius"		"132"
+	"damage"		"90"
+	"DamageRadius"		"146"
 	"BulletsPerShot"	"1"
 	"Spread"		"0.0"
 	"PunchAngle"		"3.0"	
 	"TimeFireDelay"		"0.6"
 	"TimeIdle"		"0.6"
 	"TimeIdleEmpty"		"0.6"
-	"TimeReloadStart"	"0.1"
+	"TimeReloadStart"	"0.33"
 	"TimeReload"		"0.67"
 
 	// Ammo & Clip.
@@ -32,10 +33,14 @@ WeaponData
 	"bucket"		"1"
 	"bucket_position"	"0"
 	
-	"ExplosionSound"	"Weapon_Grenade_Pipebomb.Explode"
+	// Explosions.
 	"ExplosionEffect"	"ExplosionCore_wall"
 	"ExplosionPlayerEffect"	"ExplosionCore_MidAir"
 	"ExplosionWaterEffect"	"ExplosionCore_MidAir_underwater"
+	
+	"HasCritExplosions"		"1"
+	
+	"ExplosionSound"	"Weapon_Grenade_Pipebomb.Explode"
 
 	// Animation.
 	"viewmodel"		"models/weapons/v_models/v_stickybomb_launcher_demo.mdl"
