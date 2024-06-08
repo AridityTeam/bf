@@ -57,18 +57,18 @@ WeaponData
 		"weapon"
 		{
 				"file"		"sprites/bucket_sniper"
-				"x"			"30"
-				"y"			"48"
+				"x"		"0"
+				"y"		"0"
 				"width"		"200"
-				"height"	"128"
+				"height"		"128"
 		}
 		"weapon_s"
 		{	
 				"file"		"sprites/bucket_sniper"
-				"x"			"30"
-				"y"			"48"
+				"x"		"0"
+				"y"		"0"
 				"width"		"200"
-				"height"	"128"
+				"height"		"128"
 		}
 		"ammo"
 		{
@@ -81,8 +81,8 @@ WeaponData
 		"crosshair"
 		{
 				"file"		"sprites/crosshairs"
-				"x"		"0"
-				"y"		"32"
+				"x"			"64"
+				"y"			"0"
 				"width"		"32"
 				"height"	"32"
 		}
