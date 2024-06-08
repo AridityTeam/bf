@@ -66,18 +66,18 @@ WeaponData
 		"weapon"
 		{
 				"file"		"sprites/bucket_pipelaunch"
-				"x"			"30"
-				"y"			"48"
+				"x"		"0"
+				"y"		"0"
 				"width"		"200"
-				"height"	"128"
+				"height"		"128"
 		}
 		"weapon_s"
 		{	
 				"file"		"sprites/bucket_pipelaunch"
-				"x"			"30"
-				"y"			"48"
+				"x"		"0"
+				"y"		"0"
 				"width"		"200"
-				"height"	"128"
+				"height"		"128"
 		}
 
 		"ammo"
