@@ -2,6 +2,7 @@
 //exec default.cfg
 r_decal_cullsize 1
 r_rimlight 1
+cl_bob 1
 bind m "showloadout"
 // Setup custom controller
 exec joystick.cfg
