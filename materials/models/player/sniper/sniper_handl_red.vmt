@@ -1,7 +1,7 @@
 "VertexLitGeneric"
 {
-	"$basetexture" "models/player/sniper/sniper_handL_red"
-	"$bumpmap" "models/player/sniper/sniper_hand_normal"
+	"$basetexture" "models\player\sniper\sniper_handL_red"
+	"$bumpmap" "models\player\sniper\sniper_hand_normal"
 
 	"$phong" "1"
 	"$phongexponent" "4"
@@ -13,16 +13,5 @@
 	"$rimlight" "1"
 	"$rimlightexponent" "5"										// Exponent for phong component of 	rim lighting	
 	"$rimlightboost" ".3"										// Boost for ambient cube 	component of rim lighting
-
-	"$cloakPassEnabled" "1"
-	"Proxies"
-	{
-		"spy_invis" //wmodel and team color cloak support
-		{
-		}
-		"invis" //vmodel cloak support
-		{
-		}
-	}
 	
 }
