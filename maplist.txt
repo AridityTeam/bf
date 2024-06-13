@@ -11,3 +11,4 @@ ctf_well
 cp_badlands
 ctf_badlands
 cp_staredown
+ctf_2base

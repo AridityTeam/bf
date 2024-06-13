@@ -13,3 +13,4 @@ Our map rotation is:
 - 2Fort
 - Hydro
 - Staredown
+- 2Base
