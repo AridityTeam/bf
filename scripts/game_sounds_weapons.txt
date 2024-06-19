@@ -1123,6 +1123,22 @@
 	"wave"		"weapons/draw_secondary.wav"
 }
 
+"Weapon_Medigun.Handle"
+{
+	"channel"	"CHAN_AUTO"
+	"soundlevel"	"SNDLVL_74dB"
+	"volume"	".5"
+	"wave"		"weapons/medigun_handle_movement.wav"
+}
+
+"Weapon_Medigun.HandleQ"
+{
+	"channel"	"CHAN_AUTO"
+	"soundlevel"	"SNDLVL_74dB"
+	"volume"	".5"
+	"wave"		"weapons/medigun_handle_movement_quick.wav"
+}
+
 
 
 // ------------------------------------------------------------------------------------ //
