@@ -15,7 +15,7 @@ PlayerClass
 	// Grenades.
 
 	// Weapons.
-	"weapon1"		"TF_WEAPON_BAT"
+	"weapon1"		"TF_WEAPON_UMBRELLA"
 	"weapon2"		""
 	"weapon3"		""
 
@@ -23,6 +23,11 @@ PlayerClass
 	"cameraoffset_forward"	"85"
 	"cameraoffset_right"	"25"
 	"cameraoffset_up"	"0"
+
+	"melee"
+	{
+		"TF_WEAPON_UMBRELLA"	"1"
+	}
 	
 	AmmoMax
 	{
