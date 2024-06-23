@@ -23,14 +23,17 @@
 		{
 			"English"		"Provided leaked TF2 assets"
 		}
-            "Mapper"			"1"           
+            		"Mapper"			"1"           
 			"gh_contributor"			"1"
 			"textures"			"1"
 			"tester"				"1"
 		}
+	}
+	"contributors"
+	{
 		"Soviet Hoovy"
 		{
-            "Mapper"			"1"
+            		"Mapper"			"1"
 			"tester"			"1"
 		}
 	}
@@ -47,6 +50,13 @@
 			"other"
 			{
 				"English"		"For originally porting 2008 TF2 to the 2013 SDK"
+			}
+		}
+		"NicolasDe"
+		{
+			"other"
+			{
+				"English"		"For originally creating GameUI2"
 			}
 		}
 	}

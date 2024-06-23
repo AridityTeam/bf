@@ -11,7 +11,7 @@ exec joystick.cfg
 exec autoexec.cfg
 
 //3d bg for mainmenu
-map_background background01
+//map_background background01
 
 //
 // stuff command line statements
