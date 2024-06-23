@@ -436,8 +436,8 @@
 		"font"				"MenuKeys"
 		"fgcolor"			"TanDark"
 		"scaleImage"		"1"
-		"activeimage"		"class_sel_sm_medic_blu"
-		"inactiveimage"		"class_sel_sm_medic_inactive"
+		"activeimage"		"class_sel_sm_civilian_blu"
+		"inactiveimage"		"class_sel_sm_civilian_inactive"
 	}
 
 	"CancelButton" [$WIN32] 
