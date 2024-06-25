@@ -25,7 +25,6 @@
 	// Models.
 	"viewmodel"					"models/weapons/v_models/v_umbrella_civilian.mdl"
 	"playermodel"				"models/weapons/w_models/w_umbrella_civilian.mdl"
-	"min_viewmodel_offset"		"5 0 -4"
 
 	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
 	SoundData
