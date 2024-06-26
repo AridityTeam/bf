@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+
+	"$color2" "[0 0 0]"
+
+	"$cloakPassEnabled" "1"
+
+	"Proxies"
+	{
+		"invis"
+		{
+		}
+
+	}
+}
