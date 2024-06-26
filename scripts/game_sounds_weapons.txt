@@ -563,6 +563,14 @@
 	"wave"		"items/smallmedkit1.wav"
 }
 
+"Weapon_Syringe.Draw"
+{
+	"channel"	"CHAN_AUTO"
+	"soundlevel"	"SNDLVL_74dB"
+	"volume"	"1"
+	"wave"		"weapons/draw_syringe.wav"
+}
+
 // ------------------------------------------------------------------------------------ //
 // CLUB
 // ------------------------------------------------------------------------------------ //
