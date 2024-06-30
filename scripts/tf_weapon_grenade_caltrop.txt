@@ -21,7 +21,7 @@
 	"PlayGrenTimer"		"0"
 
 	// Ammo & Clip
-	"primary_ammo"		"TF_AMMO_GRENADES1"
+	"primary_ammo"		"TF_AMMO_GRENADES2"
 	"secondary_ammo"	"None"
 	"clip_size"		"-1"
 

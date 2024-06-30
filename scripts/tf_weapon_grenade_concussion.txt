@@ -21,7 +21,7 @@
 	"Grenade"			"1"
 
 	// Ammo & Clip
-	"primary_ammo"		"TF_AMMO_GRENADES2"
+	"primary_ammo"		"TF_AMMO_GRENADES1"
 	"secondary_ammo"	"None"
 	"clip_size"		"-1"
 
