@@ -326,42 +326,7 @@ DESCRIPTION INFO_OPTIONS
 		{ SLIDER 0 255 }
 		{ "0" }
 	}
-	
-	"tf_dingalingaling_lastarmorhit"
-	{
-		"#PF_dingalingaling_lastarmorhit"
-		{ BOOL }
-		{ "1" }
-	}
-	
-	"tf_dingaling_lastarmor_volume"
-	{
-		"#PF_dingaling_lastarmor_volume"
-		{ SLIDER 0 1 }
-		{ "1" }
-	}
-	
-	"hud_combattext_armor_red"
-	{
-		"#PF_combattext_armor_red"
-		{ SLIDER 0 255 }
-		{ "255" }
-	}
-	
-	"hud_combattext_armor_green"
-	{
-		"#PF_combattext_armor_green"
-		{ SLIDER 0 255 }
-		{ "0" }
-	}
-	
-	"hud_combattext_armor_blue"
-	{
-		"#PF_combattext_armor_blue"
-		{ SLIDER 0 255 }
-		{ "0" }
-	}
-	
+		
 	"category5"
 	{
 		"#TF_OptionCategory_ClassSpecific"
