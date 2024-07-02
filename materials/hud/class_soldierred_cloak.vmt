@@ -1,8 +1,7 @@
  "Refract"
 {
 
- 	"$model" 1
- 	"$dudvmap" "hud\class_soldier_dudv"
+// 	"$model" 1
  	"$refractamount" "0"
  	"$bluramount" "1"
 	"$scale" "[1 1]"
