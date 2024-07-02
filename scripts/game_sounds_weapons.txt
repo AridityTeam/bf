@@ -782,21 +782,13 @@
 
 "Weapon_FlameThrower.IncendiaryRocketShoot"
 {
-	"channel"	"CHAN_WEAPON"
-	"volume"	"1.0"
-	"pitch"		"95,105"
-	"soundlevel"	"SNDLVL_90db"
-	"wave"		")weapons/flame_thrower_airblast.wav"
-}
-
-"Weapon_FlameThrower.AirBurstAttackDeflect"
-{
-	"channel"	"CHAN_STATIC"
+	"channel"	"CHAN_ITEM"
 	"volume"	"1.0"
 	"pitch"		"95,105"
 	"soundlevel"	"SNDLVL_84db"
-	"wave"		")weapons/flame_thrower_airblast_rocket_redirect.wav"
+	"wave"		")weapons/flame_thrower_incendiary_rocket_shoot.wav"
 }
+
 
 // ------------------------------------------------------------------------------------ //
 // STICKY BOMB LAUNCHER
