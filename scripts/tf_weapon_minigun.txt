@@ -35,8 +35,11 @@ WeaponData
 	"anim_prefix"		"ac"
 
 	// Muzzleflash
-	"MuzzleFlashParticleEffect" "muzzle_minigun"
+	"MuzzleFlashParticleEffect" "muzzle_minigun_constant"
+	"MuzzleFlashParticleEffectViewModel" "muzzle_minigun_constant_vm"
 	"MuzzleFlashModel"			"models/effects/muzzleflash/minigunmuzzle.mdl"
+	"MuzzleFlashViewmodel"			"models/effects/muzzleflash/minigunmuzzle_vm.mdl"
+	"MuzzleFlashModelScale"					"0.80"
 
 	
 	// Sounds.
