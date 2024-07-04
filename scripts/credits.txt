@@ -68,5 +68,8 @@
 		"Team Fortress 2 Classic"
 		{
 		}
+		"CoaXion Coplay"
+		{
+		}
 	}
 }	
