@@ -4,4 +4,4 @@ This mod is based on Pre-Fortress 2 version 0.6, aims to re-imagine a early 2006
 
 Beta Fortress uses [CoaXioNCoplay](https://github.com/CoaXioN-Games/coplay/) made by CoaXioN
 
-Beta Fortress Client by [PracticeMedicine](https://github.com/PracticeMedicine03): https://github.com/Beta-Fortress-2-Team/BetaFortressClient-Releases/releases
+[Beta Fortress Client](https://github.com/Beta-Fortress-2-Team/BetaFortressClient-Releases/releases) by [PracticeMedicine](https://github.com/PracticeMedicine03)
