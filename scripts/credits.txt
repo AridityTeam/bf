@@ -11,6 +11,10 @@
 			"models"			"1"
 			"animation"			"1"
 		}
+		"Mr. Malos"
+		{
+			"formerlead"			"1"
+		}
 		"PracticeMedicine"
 		{
 			"code"				"1"

@@ -62,6 +62,19 @@ DESCRIPTION SERVER_OPTIONS
 		{ "24" }
 	}
 
+	"coplay_joinfilter"
+	{
+		"#BF_JoinFilter"
+		{
+			LIST
+			"#BF_JoinFilter_Off"			"-1"
+			"#BF_JoinFilter_InviteOnly"		"0"
+			"#BF_JoinFilter_FriendsOnly"	"1"
+			"#BF_JoinFilter_Public"			"2"
+		}
+		{ "2" }
+	}
+
 	"sv_password"
 	{
 		"#Valve_Server_Password"
