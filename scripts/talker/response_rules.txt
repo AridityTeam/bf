@@ -299,7 +299,7 @@ criterion "WeaponIsShotgunPyro" "playerweapon" "tf_weapon_shotgun_pyro" "require
 
 
 
-criterion "WeaponIsLeadPipe" "playerweapon" "tf_weapon_pipe" "required"
+criterion "WeaponIsFists" "playerweapon" "tf_weapon_fists" "required"
 criterion "WeaponIsFlamethrower" "playerweapon" "tf_weapon_flamethrower" "required"
 criterion "WeaponIsIron" "playerweapon" "tf_weapon_brandingiron" "required"
 criterion "WeaponIsAxe" "playerweapon" "tf_weapon_fireaxe" "required"

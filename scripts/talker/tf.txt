@@ -84,7 +84,7 @@
 	}
 	rule HeavyTauntPlayerMelee
 	{
-		criteria ConceptPlayerTaunt IsHeavy WeaponIsLeadPipe
+		criteria ConceptPlayerTaunt IsHeavy WeaponIsFists
 		response HeavyTauntMelee
 	}
 
