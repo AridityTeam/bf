@@ -14,7 +14,7 @@ WeaponData
 	"Spread"		"0.08"
 	"TimeFireDelay"	"0.1"
 	"ProjectileType"	"projectile_bullet"
-	"BrassModel"		"models\effects\miniguncasing.mdl"
+	"BrassModel"		"models\weapons\shells\shell_minigun.mdl"
 	"DoInstantEjectBrass"    "1"
 	"UseRapidFireCrits"	"1"
 	"TracerEffect"		"bullet_tracer01"
