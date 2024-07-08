@@ -60,6 +60,16 @@ Rule PlayerCloakedSpyPyroEngineer
 	Response PlayerCloakedSpyPyroEngineer
 }
 
+Response PlayerCloakedSpyScoutEngineer
+{
+	scene "scenes/Player/Engineer/low/CloakedSpyIdentify01.vcd" 
+}
+Rule PlayerCloakedSpyScoutEngineer
+{
+	criteria ConceptPlayerCloakedSpy IsEngineer IsOnScout
+	Response PlayerCloakedSpyScoutEngineer
+}
+
 Response PlayerCloakedSpySniperEngineer
 {
 	scene "scenes/Player/Engineer/low/CloakedSpyIdentify09.vcd" 
@@ -140,6 +150,7 @@ Rule HealThanksEngineer
 Response PlayerRoundStartEngineer
 {
 	scene "scenes/Player/Engineer/low/BattleCry01.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/BattleCry02.vcd" predelay "1.0, 5.0"
 	scene "scenes/Player/Engineer/low/BattleCry03.vcd" predelay "1.0, 5.0"
 	scene "scenes/Player/Engineer/low/BattleCry04.vcd" predelay "1.0, 5.0"
 	scene "scenes/Player/Engineer/low/BattleCry05.vcd" predelay "1.0, 5.0"
@@ -216,6 +227,18 @@ Rule PlayerTeleporterThanksEngineer
 //--------------------------------------------------------------------------------------------------------------
 // Auto Speech Combat
 //--------------------------------------------------------------------------------------------------------------
+Response DefendOnThePointEngineer
+{
+	scene "scenes/Player/Engineer/low/1344.vcd" 
+}
+Rule DefendOnThePointEngineer
+{
+	criteria ConceptFireWeapon IsEngineer IsOnFriendlyControlPoint NotDefendOnThePointSpeech
+	ApplyContext "DefendOnThePointSpeech:1:30"
+	applycontexttoworld
+	Response DefendOnThePointEngineer
+}
+
 Response KillTauntsEngineerSpecial
 {
 	scene "scenes/Player/Engineer/low/SpecialCompleted02.vcd" 
@@ -683,6 +706,19 @@ Rule PlayerTeleporterHereEngineer
 	Response PlayerTeleporterHereEngineer
 }
 
+Response PlayerDefendEngineer
+{
+	//TODO
+	scene "scenes/Player/Engineer/low/HelpMeDefend01.vcd" 
+	scene "scenes/Player/Engineer/low/HelpMeDefend02.vcd" 
+	scene "scenes/Player/Engineer/low/HelpMeDefend03.vcd" 
+}
+Rule PlayerDefendEngineer
+{
+	criteria ConceptPlayerDefend IsEngineer
+	Response PlayerDefendEngineer
+}
+
 
 //--------------------------------------------------------------------------------------------------------------
 // Speech Menu 3
@@ -690,6 +726,7 @@ Rule PlayerTeleporterHereEngineer
 Response PlayerBattleCryEngineer
 {
 	scene "scenes/Player/Engineer/low/BattleCry01.vcd" 
+	scene "scenes/Player/Engineer/low/BattleCry02.vcd" 
 	scene "scenes/Player/Engineer/low/BattleCry03.vcd" 
 	scene "scenes/Player/Engineer/low/BattleCry04.vcd" 
 	scene "scenes/Player/Engineer/low/BattleCry05.vcd" 

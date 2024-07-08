@@ -67,9 +67,7 @@
 	}
 	response "HeavyTauntMelee"
 	{
-		scene "scenes/Player/Heavy/low/taunt03.vcd"
 		scene "scenes/Player/Heavy/low/taunt03_v1.vcd"
-		scene "scenes/Player/Heavy/low/taunt03_v2.vcd"
 	}
 
 	rule HeavyTauntPlayerPrimary
@@ -337,6 +335,7 @@
 	{
 		scene "scenes/Player/Soldier/low/taunt02_v1.vcd"
 		scene "scenes/Player/Soldier/low/taunt02_v2.vcd"
+		scene "scenes/Player/Soldier/low/taunt04.vcd"
 	}
 	response "SoldierTauntMelee"
 	{
@@ -345,7 +344,11 @@
 		scene "scenes/Player/Soldier/low/taunt03_v3.vcd"
 		scene "scenes/Player/Soldier/low/taunt03_v4.vcd"
 	}
-
+	response "SoldierTauntShotgun"
+	{
+		scene "scenes/Player/Soldier/low/taunt04.vcd"
+	}
+	
 	rule SoldierTauntPlayerPrimary
 	{
 		criteria ConceptPlayerTaunt IsSoldier WeaponIsRocket
@@ -361,7 +364,12 @@
 		criteria ConceptPlayerTaunt IsSoldier WeaponIsShovel
 		response SoldierTauntMelee
 	}
-
+	rule SoldierTauntPlayerShotgun
+	{
+	//	criteria ConceptPlayerTaunt IsSoldier WeaponIsShotgunSoldier
+		response SoldierTauntShotgun
+	}
+	
 	Response PlayerExpressionIdleSoldier
 	{
 		scene "scenes\player\Soldier\low\idleloop01.vcd"
@@ -651,15 +659,15 @@
 	}
 	response "DemomanTauntMelee"
 	{
-		scene "scenes/Player/Demoman/low/taunt03_v1.vcd"
-	  scene "scenes/Player/Demoman/low/taunt03_v2.vcd"
-	  scene "scenes/Player/Demoman/low/taunt03_v3.vcd"
+		scene "scenes/player/demoman/low/taunt03_v1.vcd"
+		scene "scenes/player/demoman/low/taunt03_v2.vcd"
+		scene "scenes/player/demoman/low/taunt03_v3.vcd"
 	}
 
 	rule DemomanTauntPlayerPrimary
 	{
 		criteria ConceptPlayerTaunt IsDemoman WeaponIsPipebomb
-		response DemomanTauntSecondary
+		response DemomanTauntPrimary
 	}
 	rule DemomanTauntPlayerSecondary
 	{

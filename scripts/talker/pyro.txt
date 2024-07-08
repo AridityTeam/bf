@@ -60,6 +60,16 @@ Rule PlayerCloakedSpyPyroPyro
 	Response PlayerCloakedSpyPyroPyro
 }
 
+Response PlayerCloakedSpyScoutPyro
+{
+	scene "scenes/Player/Pyro/low/CloakedSpyIdentify01.vcd" 
+}
+Rule PlayerCloakedSpyScoutPyro
+{
+	criteria ConceptPlayerCloakedSpy IsPyro IsOnScout
+	Response PlayerCloakedSpyScoutPyro
+}
+
 Response PlayerCloakedSpySniperPyro
 {
 	scene "scenes/Player/Pyro/low/CloakedSpyIdentify01.vcd" 
@@ -161,6 +171,18 @@ Rule PlayerTeleporterThanksPyro
 //--------------------------------------------------------------------------------------------------------------
 // Auto Speech Combat
 //--------------------------------------------------------------------------------------------------------------
+Response DefendOnThePointPyro
+{
+	scene "scenes/Player/Pyro/low/1531.vcd" 
+}
+Rule DefendOnThePointPyro
+{
+	criteria ConceptFireWeapon IsPyro IsOnFriendlyControlPoint NotDefendOnThePointSpeech
+	ApplyContext "DefendOnThePointSpeech:1:30"
+	applycontexttoworld
+	Response DefendOnThePointPyro
+}
+
 Response KilledPlayerManyPyro
 {
 	scene "scenes/Player/Pyro/low/Taunts04.vcd" 
@@ -479,6 +501,16 @@ Rule PlayerTeleporterHerePyro
 	Response PlayerTeleporterHerePyro
 }
 
+Response PlayerDefendPyro
+{
+	//TODO
+	scene "scenes/Player/Pyro/low/HelpMeDefend01.vcd" 
+}
+Rule PlayerDefendPyro
+{
+	criteria ConceptPlayerDefend IsPyro
+	Response PlayerDefendPyro
+}
 
 //--------------------------------------------------------------------------------------------------------------
 // Speech Menu 3

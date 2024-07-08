@@ -165,6 +165,7 @@ criterion "ConceptPlayerSentryHere" "Concept" "TLK_PLAYER_SENTRYHERE" required
 criterion "ConceptPlayerActivateCharge" "Concept" "TLK_PLAYER_ACTIVATECHARGE" required
 criterion "ConceptPlayerChargeReady" "Concept" "TLK_PLAYER_CHARGEREADY" required
 criterion "ConceptPlayerTaunts" "Concept" "TLK_PLAYER_TAUNTS" required
+criterion "ConceptPlayerDefend" "Concept" "TLK_PLAYER_DEFEND" required
 criterion "ConceptPlayerBattleCry" "Concept" "TLK_PLAYER_BATTLECRY" required
 criterion "ConceptPlayerCheers" "Concept" "TLK_PLAYER_CHEERS" required
 criterion "ConceptPlayerJeers" "Concept" "TLK_PLAYER_JEERS" required
@@ -197,6 +198,15 @@ criterion "ConceptPlayerDead" "Concept" "TLK_DEAD" required
 criterion "ConceptPlayerGrabbedIntelligence" "Concept" "TLK_FLAGPICKUP" required          
 criterion "ConceptPlayerCapturedIntelligence" "Concept" "TLK_FLAGCAPTURED" required          
 
+//cart stuff
+criterion "ConceptCartMovingForward" "Concept" "TLK_CART_MOVING_FORWARD" required          
+criterion "ConceptCartMovingStopped" "Concept" "TLK_CART_STOP" required          
+criterion "ConceptCartMovingBackward" "Concept" "TLK_CART_MOVING_BACKWARD" required          
+
+
+criterion "IsOnOffense" "teamrole" "offense" required
+criterion "IsOnDefense" "teamrole" "defense" required
+
 
 // Expressions
 criterion "ConceptPlayerExpression" "Concept" "TLK_PLAYER_EXPRESSION" required
@@ -210,11 +220,14 @@ criterion "IsTeleporterEntrance" "objtype" "teleporter_entrance" required
 criterion "IsTeleporterExit" "objtype" "teleporter_exit" required
 criterion "IsDispenser" "objtype" "dispenser" required
 criterion "IsDisguised" "disguised" "1" required
+criterion "IsNotDisguised" "disguised" "!=1" required
 criterion "IsWeaponPrimary" "weaponmode" "primary" required
 criterion "IsWeaponSecondary" "weaponmode" "secondary" required
 criterion "IsWeaponMelee" "weaponmode" "melee" required
 criterion "IsWeaponBuilding" "weaponmode" "building" required
 criterion "IsWeaponPda" "weaponmode" "pda" required
+criterion "IsCloaked" "cloaked" "1" required
+criterion "IsNotCloaked" "cloaked" "!=1" required
 
 
 criterion "IsOnScout" "crosshair_on" "Scout" "required"
@@ -292,6 +305,7 @@ criterion "IsOnFriendlyControlPoint"  "OnFriendlyControlPoint"	"1"   required
 criterion "IsOnCappableControlPoint"  "OnCappableControlPoint"	"1"   required
 
 criterion "WeaponIsMinigun" "playerweapon" "tf_weapon_minigun" "required"
+
 criterion "WeaponIsShotgun" "playerweapon" "tf_weapon_shotgun_secondary" "required"
 criterion "WeaponIsShotgunSoldier" "playerweapon" "tf_weapon_shotgun_soldier" "required"
 criterion "WeaponIsShotgunHwg" "playerweapon" "tf_weapon_shotgun_hwg" "required"
@@ -348,6 +362,7 @@ criterion "TimeFiringMinigunShort" "minigunfiretime" ">4.0,<=8.0" required
 criterion "TimeFiringMinigunLong" "minigunfiretime" ">8.0,<=15.0" required
 criterion "TimeFiringMinigunReallyLong" "minigunfiretime" ">15.0" required
 criterion "ConceptFireMinigunTalk" "Concept" "TLK_MINIGUN_FIREWEAPON" "required"
+Criterion "NotDefendOnThePointSpeech" "worldDefendOnThePointSpeech" "!=1" "required" weight 0
 
 // Test rules
 #include "talker/tf.txt"
