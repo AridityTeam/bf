@@ -54,7 +54,7 @@ soldiermemorial
 		angles "0 145 0"
 	}
 
-	cp_powerhouse
+	cp_staredown
 	{
 		origin "-880 -3854 1328"
 		angles "0 0 0"
@@ -66,7 +66,7 @@ soldiermemorial
 		angles "0 180 0"
 	}
 	
-	pf_target
+	bf_target
 	{
 		origin "-177 -980 -64"
 		angles "0 -180 0"
