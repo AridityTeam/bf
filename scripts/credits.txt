@@ -40,6 +40,14 @@
             		"Mapper"			"1"
 			"tester"			"1"
 		}
+		"Grub PL"
+		{
+			"tester"			"1"
+			"other"
+			{
+				"English"		"ad_dustbowl2 menu photo"
+			}
+		}
 	}
 	"playtesters"
 	{
