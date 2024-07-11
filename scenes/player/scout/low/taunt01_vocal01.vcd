@@ -3,10 +3,10 @@ actor "scout"
 {
   channel "audio"
   {
-    event speak "Scout.Cheers03"
+    event speak "Scout.Taunts06"
     {
       time 0.250441 1.179239
-      param "Scout.Cheers03"
+      param "Scout.Taunts06"
       fixedlength
       cctype "cc_master"
       cctoken ""
