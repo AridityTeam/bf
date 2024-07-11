@@ -406,9 +406,9 @@
 //------------------------------------------------------------------------------------------------------------
 	response "ScoutTauntPrimary"
 	{
-		scene "scenes/Player/Scout/low/taunt07_vocal01.vcd"
-		scene "scenes/Player/Scout/low/taunt07_vocal02.vcd"
-		scene "scenes/Player/Scout/low/taunt07_vocal03.vcd"
+		scene "scenes/Player/Scout/low/taunt01_vocal01.vcd"
+		scene "scenes/Player/Scout/low/taunt01_vocal02.vcd"
+		scene "scenes/Player/Scout/low/taunt01_vocal03.vcd"
 	}
 	response "ScoutTauntSecondary"
 	{
@@ -429,7 +429,7 @@
 	rule ScoutTauntPlayerNailgun
 	{
 		criteria ConceptPlayerTaunt IsScout WeaponIsNailgun
-		response ScoutTauntPrimary
+		response ScoutTauntSecondary
 	}
 	rule ScoutTauntPlayerShotgun
 	{
