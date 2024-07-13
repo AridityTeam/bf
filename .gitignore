@@ -83,3 +83,4 @@ voice_ban.dt
 *.backup
 *.bat
 *.lnk
+*.cache
