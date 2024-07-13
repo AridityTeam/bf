@@ -1,8 +1,0 @@
-"VertexlitGeneric"
-{
-	"$basetexture" "models/props_badlands/badlands_laser_new"
-	"$surfaceprop" "Metal"
-     	"$envmap" "env_cubemap"
- 	"$basealphaenvmapmask" 1 
-	$envmapcontrast 1
-}

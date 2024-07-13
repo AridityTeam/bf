@@ -1,5 +1,0 @@
-"VertexlitGeneric"
-{
-	"$baseTexture" "models\props_moonbase/moon_interior_tech05"
-	$selfillum 1
-}

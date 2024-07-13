@@ -1,7 +1,0 @@
-"vertexlitgeneric"
-{
-	"$basetexture" "metal/ibeam001_medium"
-	"$bumpmap" "metal/ibeam003_normal"
-	"$surfaceprop" "metal"
-	"%keywords" "tf"
-}

@@ -1,7 +1,0 @@
-"VertexLitGeneric"
-{
-	"$basetexture" "models/props_barnblitz/train_turnaround001"
-	"$surfaceprop" "wood"
-	"%keywords" "tf"
-
-}

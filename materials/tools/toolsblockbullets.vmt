@@ -1,8 +1,0 @@
-"LightmappedGeneric"
-{
-	"$basetexture" "Tools/toolsblockbullets"
-	"$translucent" 1
-	"$nodecal" 1
-	"%compileNodraw" 1
-	"%keywords" "tf,Tools"
-}

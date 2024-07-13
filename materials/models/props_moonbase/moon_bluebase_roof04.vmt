@@ -1,9 +1,0 @@
-"VertexlitGeneric"
-{
-	"$baseTexture" "models\props_moonbase/moon_bluebase_roof04"
-	"$detail" "detail/moon_panels01"
-	"$detailscale" "3"
-	"$detailblendmode" "0"
-	"$detailblendfactor" "0.5"
-}
-

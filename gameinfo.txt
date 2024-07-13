@@ -13,6 +13,8 @@
 	developer		"Aridity Team"
 	developer_url		"https://discord.gg/ACmtW8pM7B"
 	manual			""
+	GameData		"bf.fgd"
+	InstancePath 	"maps/instances/"
 	hidden_maps
 	{
 		"test_speakers"		1
@@ -32,6 +34,15 @@
 			// folder.
 			// Note that this folder is scanned only when the game is booted.
 			game+mod			|gameinfo_path|custom/*
+
+			// Mounts PF2's VPKs
+			game+mod			|gameinfo_path|bf_hotfix.vpk
+			game+mod			|gameinfo_path|bf_patch.vpk
+			game+mod			|gameinfo_path|bf_misc.vpk
+			game+mod			|gameinfo_path|bf_sound.vpk
+			game+mod			|gameinfo_path|bf_textures.vpk
+			game+mod			|gameinfo_path|bf_models.vpk
+			game+mod			|gameinfo_path|bf_scripts.vpk
 
 			// Search game's files after any user customizations. This is also where any writes should go.
 			game+game_write+mod+mod_write+default_write_path		|gameinfo_path|.

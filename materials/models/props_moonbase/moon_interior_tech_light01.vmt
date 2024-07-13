@@ -1,8 +1,0 @@
-"VertexlitGeneric"
-{
-	"$baseTexture" "models\props_moonbase/moon_interior_tech_light01"
-	$selfillum 1
-	"$envmapcontrast" "0"
-	"$envmap" "cubemaps\cubemap_specular001"
-	"$envmaptint" "[ 0.62 0.580 0.53 ]"
-}
