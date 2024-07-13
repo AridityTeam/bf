@@ -10,4 +10,5 @@ globalactors
 	"sniper"	"male"
 	"soldier"	"male"
 	"spy"		"male"
+	"civilian"		"male"
 }
