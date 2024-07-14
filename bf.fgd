@@ -451,11 +451,6 @@
 @PointClass base(Targetname, TeamNum, EnableDisable, Angles) studio("models/editor/playerstart.mdl") = info_player_teamspawn :
 	"This entity marks the spawn point for Team Fortress players."
 [
-	SpawnArmor(choices) : "Spawn Armor" : 1 : "Spawn player with armor?" =
-	[
-		0 : "No"
-		1 : "Yes"
-	]
 	SpawnGrenades(choices) : "Spawn Grenades" : 1 : "Spawn player with grenades?" =
 	[
 		0 : "No"
@@ -466,8 +461,6 @@
  	round_bluespawn(target_destination) : "Blue spawn for round" : : "Blue spawn point when the associated round is being played."
 	round_redspawn(target_destination) : "Red spawn for round" : : "Red spawn point when the associated round is being played."
 	
-	// Inputs
-	input SetArmorSpawn(bool) : "Set whether this teamspawn spawns the player with armor. 0 = No, 1 = Yes"
 	input SetGrenadeSpawn(bool) : "Set whether this teamspawn spawns the player with grenades. 0 = No, 1 = Yes"
 	
 ]
@@ -688,8 +681,6 @@
 @PointClass base(Item) studio("models/items/ammopack_medium.mdl") = item_ammopack_medium : "Ammo Pack Medium" []
 
 @PointClass base(Item) studio("models/items/item_grenadepack.mdl") = item_grenadepack : "Grenade Pack" []
-
-@PointClass base(Item) studio("models/items/item_armor.mdl") = item_armor : "Armor Pack" []
 
 //
 // Filters
