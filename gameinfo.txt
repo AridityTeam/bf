@@ -35,7 +35,7 @@
 			// Note that this folder is scanned only when the game is booted.
 			game+mod			|gameinfo_path|custom/*
 
-			// Mounts PF2's VPKs
+			// Mounts BF's VPKs
 			game+mod			|gameinfo_path|vpks/bf_hotfix.vpk
 			game+mod			|gameinfo_path|vpks/bf_patch.vpk
 			game+mod			|gameinfo_path|vpks/bf_misc.vpk
