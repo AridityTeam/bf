@@ -1,7 +1,0 @@
-"Ambient.Siren"
-
-{
-
-    "wave" "misc/null.wav"
-
-}
