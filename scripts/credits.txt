@@ -64,13 +64,6 @@
 				"English"		"For originally porting 2008 TF2 to the 2013 SDK"
 			}
 		}
-		"NicolasDe"
-		{
-			"other"
-			{
-				"English"		"For originally creating GameUI2"
-			}
-		}
 	}
 	"software"
 	{
