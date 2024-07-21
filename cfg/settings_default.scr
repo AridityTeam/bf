@@ -153,14 +153,14 @@ DESCRIPTION SERVER_OPTIONS
 		{ CATEGORY }
 	}
 
-	"pf_cp_flag"
+	"bf_cp_flag"
 	{
 		"#TF_CPFlag"
 		{ BOOL }
 		{ "1" }
 	}
 	
-	"pf_flag_speed_penalty"
+	"bf_flag_speed_penalty"
 	{
 		"#TF_CPFlagSpeedPenalty"
 		{ NUMBER 0.1 1 }
@@ -200,7 +200,7 @@ DESCRIPTION SERVER_OPTIONS
 		{ "0" }
 	}
 	
-	"pf_autohop"
+	"bf_autohop"
 	{
 		"#TF_bunnyhopping"
 		{ BOOL }

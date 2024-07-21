@@ -51,18 +51,18 @@ DESCRIPTION INFO_OPTIONS
 
 	"category3"
 	{
-		"#TF_PF_OPT_CAT3"
+		"#TF_bf_OPT_CAT3"
 		{ CATEGORY }
 	}
 	
-	"pf_discord_rpc"
+	"bf_discord_rpc"
 	{
 		"#TF_discord"
 		{ BOOL }
 		{ "1" }
 	}
 
-	"pf_discord_class"
+	"bf_discord_class"
 	{
 		"#TF_discord_class"
 		{ BOOL }
@@ -71,7 +71,7 @@ DESCRIPTION INFO_OPTIONS
 
 	"category1"
 	{
-		"#TF_PF_OPT_CAT1"
+		"#TF_bf_OPT_CAT1"
 		{ CATEGORY }
 	}
 
@@ -105,7 +105,7 @@ DESCRIPTION INFO_OPTIONS
 
 	"category2"
 	{
-		"#TF_PF_OPT_CAT2"
+		"#TF_bf_OPT_CAT2"
 		{ CATEGORY }
 	}
 
@@ -137,7 +137,7 @@ DESCRIPTION INFO_OPTIONS
 		{ "0" }
 	}
 
-	"pf_expensivebulletsplash"
+	"bf_expensivebulletsplash"
 	{
 		"#TF_cheapwater"
 		{ BOOL }
