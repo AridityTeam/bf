@@ -40,6 +40,10 @@
             		"Mapper"			"1"
 			"tester"			"1"
 		}
+		"DHet"
+		{
+            		"Mapper"			"1"
+		}
 		"Grub PL"
 		{
 			"tester"			"1"
