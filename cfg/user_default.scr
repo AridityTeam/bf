@@ -391,7 +391,7 @@ DESCRIPTION INFO_OPTIONS
 	"viewmodel_fov"
 	{
 		"#TF_VIEWMODEL_FOV"
-		{ SLIDER 54 90 }
+		{ SLIDER 54 70 }
 		{ "54" }
 	}
 	
