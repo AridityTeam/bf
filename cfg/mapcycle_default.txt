@@ -9,3 +9,6 @@ ctf_well
 cp_badlands
 ctf_badlands
 cp_staredown
+rctf_epicenter
+rctf_push
+rctf_rock
