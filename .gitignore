@@ -75,6 +75,7 @@ console.log
 GameState.txt
 stats.txt
 tf2_playerstats.dmx
+bf_gamestats.dat
 modelsounds.cache
 demoheader.tmp
 voice_ban.dt
