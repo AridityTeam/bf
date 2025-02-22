@@ -6,5 +6,5 @@ Beta Fortress utilizes [Coplay](https://github.com/CoaXioN-Games/coplay/) by [Co
 
 ----
 
-Copyright © 2025 The Aridity Team and individual contributors, all rights reserved.
+Copyright © 2025 The Aridity Team and individual contributors, all rights reserved. \
 Copyright © 2025 The Pre-Fortress 2 team, all rights reserved.
