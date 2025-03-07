@@ -2,8 +2,6 @@
 {
 	game			"Beta Fortress"
 	gamelogo 1
-	title 			""
-	title2			""
 	type 			"multiplayer_only"
 	nomodels 		"1"
 	nohimodel 		"1"
@@ -12,7 +10,6 @@
 	icon			"resource/game"
 	developer		"Aridity Team"
 	developer_url		"https://discord.gg/ACmtW8pM7B"
-	manual			""
 	GameData		"bf.fgd"
 	InstancePath 	"maps/instances/"
 	hidden_maps
