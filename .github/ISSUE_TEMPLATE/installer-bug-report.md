@@ -1,5 +1,5 @@
 ---
-name: BFCLient Bug Report
+name: BFClient Bug Report
 about: A bug report about of course you know it, Beta Fortress Client.
 title: "[ INSTALLER BUG ]"
 labels: bug
